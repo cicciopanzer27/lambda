@@ -1,0 +1,1359 @@
+{
+  "frames": [
+    {
+      "frame_number": 0,
+      "timestamp": 0.0,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.0,
+        "analysis": "Frame 1/150"
+      }
+    },
+    {
+      "frame_number": 1,
+      "timestamp": 0.03333333333333333,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.006666666666666667,
+        "analysis": "Frame 2/150"
+      }
+    },
+    {
+      "frame_number": 2,
+      "timestamp": 0.06666666666666667,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.013333333333333334,
+        "analysis": "Frame 3/150"
+      }
+    },
+    {
+      "frame_number": 3,
+      "timestamp": 0.1,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.02,
+        "analysis": "Frame 4/150"
+      }
+    },
+    {
+      "frame_number": 4,
+      "timestamp": 0.13333333333333333,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.02666666666666667,
+        "analysis": "Frame 5/150"
+      }
+    },
+    {
+      "frame_number": 5,
+      "timestamp": 0.16666666666666666,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.03333333333333333,
+        "analysis": "Frame 6/150"
+      }
+    },
+    {
+      "frame_number": 6,
+      "timestamp": 0.2,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.04,
+        "analysis": "Frame 7/150"
+      }
+    },
+    {
+      "frame_number": 7,
+      "timestamp": 0.23333333333333334,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.04666666666666667,
+        "analysis": "Frame 8/150"
+      }
+    },
+    {
+      "frame_number": 8,
+      "timestamp": 0.26666666666666666,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.05333333333333334,
+        "analysis": "Frame 9/150"
+      }
+    },
+    {
+      "frame_number": 9,
+      "timestamp": 0.3,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.06,
+        "analysis": "Frame 10/150"
+      }
+    },
+    {
+      "frame_number": 10,
+      "timestamp": 0.3333333333333333,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.06666666666666667,
+        "analysis": "Frame 11/150"
+      }
+    },
+    {
+      "frame_number": 11,
+      "timestamp": 0.36666666666666664,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.07333333333333333,
+        "analysis": "Frame 12/150"
+      }
+    },
+    {
+      "frame_number": 12,
+      "timestamp": 0.4,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.08,
+        "analysis": "Frame 13/150"
+      }
+    },
+    {
+      "frame_number": 13,
+      "timestamp": 0.43333333333333335,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.08666666666666667,
+        "analysis": "Frame 14/150"
+      }
+    },
+    {
+      "frame_number": 14,
+      "timestamp": 0.4666666666666667,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.09333333333333334,
+        "analysis": "Frame 15/150"
+      }
+    },
+    {
+      "frame_number": 15,
+      "timestamp": 0.5,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.1,
+        "analysis": "Frame 16/150"
+      }
+    },
+    {
+      "frame_number": 16,
+      "timestamp": 0.5333333333333333,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.10666666666666667,
+        "analysis": "Frame 17/150"
+      }
+    },
+    {
+      "frame_number": 17,
+      "timestamp": 0.5666666666666667,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.11333333333333333,
+        "analysis": "Frame 18/150"
+      }
+    },
+    {
+      "frame_number": 18,
+      "timestamp": 0.6,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.12,
+        "analysis": "Frame 19/150"
+      }
+    },
+    {
+      "frame_number": 19,
+      "timestamp": 0.6333333333333333,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.12666666666666668,
+        "analysis": "Frame 20/150"
+      }
+    },
+    {
+      "frame_number": 20,
+      "timestamp": 0.6666666666666666,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.13333333333333333,
+        "analysis": "Frame 21/150"
+      }
+    },
+    {
+      "frame_number": 21,
+      "timestamp": 0.7,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.14,
+        "analysis": "Frame 22/150"
+      }
+    },
+    {
+      "frame_number": 22,
+      "timestamp": 0.7333333333333333,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.14666666666666667,
+        "analysis": "Frame 23/150"
+      }
+    },
+    {
+      "frame_number": 23,
+      "timestamp": 0.7666666666666667,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.15333333333333332,
+        "analysis": "Frame 24/150"
+      }
+    },
+    {
+      "frame_number": 24,
+      "timestamp": 0.8,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.16,
+        "analysis": "Frame 25/150"
+      }
+    },
+    {
+      "frame_number": 25,
+      "timestamp": 0.8333333333333334,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.16666666666666666,
+        "analysis": "Frame 26/150"
+      }
+    },
+    {
+      "frame_number": 26,
+      "timestamp": 0.8666666666666667,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.17333333333333334,
+        "analysis": "Frame 27/150"
+      }
+    },
+    {
+      "frame_number": 27,
+      "timestamp": 0.9,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.18,
+        "analysis": "Frame 28/150"
+      }
+    },
+    {
+      "frame_number": 28,
+      "timestamp": 0.9333333333333333,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.18666666666666668,
+        "analysis": "Frame 29/150"
+      }
+    },
+    {
+      "frame_number": 29,
+      "timestamp": 0.9666666666666667,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.19333333333333333,
+        "analysis": "Frame 30/150"
+      }
+    },
+    {
+      "frame_number": 30,
+      "timestamp": 1.0,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.2,
+        "analysis": "Frame 31/150"
+      }
+    },
+    {
+      "frame_number": 31,
+      "timestamp": 1.0333333333333334,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.20666666666666667,
+        "analysis": "Frame 32/150"
+      }
+    },
+    {
+      "frame_number": 32,
+      "timestamp": 1.0666666666666667,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.21333333333333335,
+        "analysis": "Frame 33/150"
+      }
+    },
+    {
+      "frame_number": 33,
+      "timestamp": 1.1,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.22,
+        "analysis": "Frame 34/150"
+      }
+    },
+    {
+      "frame_number": 34,
+      "timestamp": 1.1333333333333333,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.22666666666666666,
+        "analysis": "Frame 35/150"
+      }
+    },
+    {
+      "frame_number": 35,
+      "timestamp": 1.1666666666666667,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.23333333333333334,
+        "analysis": "Frame 36/150"
+      }
+    },
+    {
+      "frame_number": 36,
+      "timestamp": 1.2,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.24,
+        "analysis": "Frame 37/150"
+      }
+    },
+    {
+      "frame_number": 37,
+      "timestamp": 1.2333333333333334,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.24666666666666667,
+        "analysis": "Frame 38/150"
+      }
+    },
+    {
+      "frame_number": 38,
+      "timestamp": 1.2666666666666666,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.25333333333333335,
+        "analysis": "Frame 39/150"
+      }
+    },
+    {
+      "frame_number": 39,
+      "timestamp": 1.3,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.26,
+        "analysis": "Frame 40/150"
+      }
+    },
+    {
+      "frame_number": 40,
+      "timestamp": 1.3333333333333333,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.26666666666666666,
+        "analysis": "Frame 41/150"
+      }
+    },
+    {
+      "frame_number": 41,
+      "timestamp": 1.3666666666666667,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.2733333333333333,
+        "analysis": "Frame 42/150"
+      }
+    },
+    {
+      "frame_number": 42,
+      "timestamp": 1.4,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.28,
+        "analysis": "Frame 43/150"
+      }
+    },
+    {
+      "frame_number": 43,
+      "timestamp": 1.4333333333333333,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.2866666666666667,
+        "analysis": "Frame 44/150"
+      }
+    },
+    {
+      "frame_number": 44,
+      "timestamp": 1.4666666666666666,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.29333333333333333,
+        "analysis": "Frame 45/150"
+      }
+    },
+    {
+      "frame_number": 45,
+      "timestamp": 1.5,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.3,
+        "analysis": "Frame 46/150"
+      }
+    },
+    {
+      "frame_number": 46,
+      "timestamp": 1.5333333333333334,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.30666666666666664,
+        "analysis": "Frame 47/150"
+      }
+    },
+    {
+      "frame_number": 47,
+      "timestamp": 1.5666666666666667,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.31333333333333335,
+        "analysis": "Frame 48/150"
+      }
+    },
+    {
+      "frame_number": 48,
+      "timestamp": 1.6,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.32,
+        "analysis": "Frame 49/150"
+      }
+    },
+    {
+      "frame_number": 49,
+      "timestamp": 1.6333333333333333,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.32666666666666666,
+        "analysis": "Frame 50/150"
+      }
+    },
+    {
+      "frame_number": 50,
+      "timestamp": 1.6666666666666667,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.3333333333333333,
+        "analysis": "Frame 51/150"
+      }
+    },
+    {
+      "frame_number": 51,
+      "timestamp": 1.7,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.34,
+        "analysis": "Frame 52/150"
+      }
+    },
+    {
+      "frame_number": 52,
+      "timestamp": 1.7333333333333334,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.3466666666666667,
+        "analysis": "Frame 53/150"
+      }
+    },
+    {
+      "frame_number": 53,
+      "timestamp": 1.7666666666666666,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.35333333333333333,
+        "analysis": "Frame 54/150"
+      }
+    },
+    {
+      "frame_number": 54,
+      "timestamp": 1.8,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.36,
+        "analysis": "Frame 55/150"
+      }
+    },
+    {
+      "frame_number": 55,
+      "timestamp": 1.8333333333333333,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.36666666666666664,
+        "analysis": "Frame 56/150"
+      }
+    },
+    {
+      "frame_number": 56,
+      "timestamp": 1.8666666666666667,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.37333333333333335,
+        "analysis": "Frame 57/150"
+      }
+    },
+    {
+      "frame_number": 57,
+      "timestamp": 1.9,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.38,
+        "analysis": "Frame 58/150"
+      }
+    },
+    {
+      "frame_number": 58,
+      "timestamp": 1.9333333333333333,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.38666666666666666,
+        "analysis": "Frame 59/150"
+      }
+    },
+    {
+      "frame_number": 59,
+      "timestamp": 1.9666666666666666,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.3933333333333333,
+        "analysis": "Frame 60/150"
+      }
+    },
+    {
+      "frame_number": 60,
+      "timestamp": 2.0,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.4,
+        "analysis": "Frame 61/150"
+      }
+    },
+    {
+      "frame_number": 61,
+      "timestamp": 2.033333333333333,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.4066666666666667,
+        "analysis": "Frame 62/150"
+      }
+    },
+    {
+      "frame_number": 62,
+      "timestamp": 2.066666666666667,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.41333333333333333,
+        "analysis": "Frame 63/150"
+      }
+    },
+    {
+      "frame_number": 63,
+      "timestamp": 2.1,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.42,
+        "analysis": "Frame 64/150"
+      }
+    },
+    {
+      "frame_number": 64,
+      "timestamp": 2.1333333333333333,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.4266666666666667,
+        "analysis": "Frame 65/150"
+      }
+    },
+    {
+      "frame_number": 65,
+      "timestamp": 2.1666666666666665,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.43333333333333335,
+        "analysis": "Frame 66/150"
+      }
+    },
+    {
+      "frame_number": 66,
+      "timestamp": 2.2,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.44,
+        "analysis": "Frame 67/150"
+      }
+    },
+    {
+      "frame_number": 67,
+      "timestamp": 2.2333333333333334,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.44666666666666666,
+        "analysis": "Frame 68/150"
+      }
+    },
+    {
+      "frame_number": 68,
+      "timestamp": 2.2666666666666666,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.4533333333333333,
+        "analysis": "Frame 69/150"
+      }
+    },
+    {
+      "frame_number": 69,
+      "timestamp": 2.3,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.46,
+        "analysis": "Frame 70/150"
+      }
+    },
+    {
+      "frame_number": 70,
+      "timestamp": 2.3333333333333335,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.4666666666666667,
+        "analysis": "Frame 71/150"
+      }
+    },
+    {
+      "frame_number": 71,
+      "timestamp": 2.3666666666666667,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.47333333333333333,
+        "analysis": "Frame 72/150"
+      }
+    },
+    {
+      "frame_number": 72,
+      "timestamp": 2.4,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.48,
+        "analysis": "Frame 73/150"
+      }
+    },
+    {
+      "frame_number": 73,
+      "timestamp": 2.433333333333333,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.4866666666666667,
+        "analysis": "Frame 74/150"
+      }
+    },
+    {
+      "frame_number": 74,
+      "timestamp": 2.466666666666667,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.49333333333333335,
+        "analysis": "Frame 75/150"
+      }
+    },
+    {
+      "frame_number": 75,
+      "timestamp": 2.5,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.5,
+        "analysis": "Frame 76/150"
+      }
+    },
+    {
+      "frame_number": 76,
+      "timestamp": 2.533333333333333,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.5066666666666667,
+        "analysis": "Frame 77/150"
+      }
+    },
+    {
+      "frame_number": 77,
+      "timestamp": 2.566666666666667,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.5133333333333333,
+        "analysis": "Frame 78/150"
+      }
+    },
+    {
+      "frame_number": 78,
+      "timestamp": 2.6,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.52,
+        "analysis": "Frame 79/150"
+      }
+    },
+    {
+      "frame_number": 79,
+      "timestamp": 2.6333333333333333,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.5266666666666666,
+        "analysis": "Frame 80/150"
+      }
+    },
+    {
+      "frame_number": 80,
+      "timestamp": 2.6666666666666665,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.5333333333333333,
+        "analysis": "Frame 81/150"
+      }
+    },
+    {
+      "frame_number": 81,
+      "timestamp": 2.7,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.54,
+        "analysis": "Frame 82/150"
+      }
+    },
+    {
+      "frame_number": 82,
+      "timestamp": 2.7333333333333334,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.5466666666666666,
+        "analysis": "Frame 83/150"
+      }
+    },
+    {
+      "frame_number": 83,
+      "timestamp": 2.7666666666666666,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.5533333333333333,
+        "analysis": "Frame 84/150"
+      }
+    },
+    {
+      "frame_number": 84,
+      "timestamp": 2.8,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.56,
+        "analysis": "Frame 85/150"
+      }
+    },
+    {
+      "frame_number": 85,
+      "timestamp": 2.8333333333333335,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.5666666666666667,
+        "analysis": "Frame 86/150"
+      }
+    },
+    {
+      "frame_number": 86,
+      "timestamp": 2.8666666666666667,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.5733333333333334,
+        "analysis": "Frame 87/150"
+      }
+    },
+    {
+      "frame_number": 87,
+      "timestamp": 2.9,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.58,
+        "analysis": "Frame 88/150"
+      }
+    },
+    {
+      "frame_number": 88,
+      "timestamp": 2.933333333333333,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.5866666666666667,
+        "analysis": "Frame 89/150"
+      }
+    },
+    {
+      "frame_number": 89,
+      "timestamp": 2.966666666666667,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.5933333333333334,
+        "analysis": "Frame 90/150"
+      }
+    },
+    {
+      "frame_number": 90,
+      "timestamp": 3.0,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.6,
+        "analysis": "Frame 91/150"
+      }
+    },
+    {
+      "frame_number": 91,
+      "timestamp": 3.033333333333333,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.6066666666666667,
+        "analysis": "Frame 92/150"
+      }
+    },
+    {
+      "frame_number": 92,
+      "timestamp": 3.066666666666667,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.6133333333333333,
+        "analysis": "Frame 93/150"
+      }
+    },
+    {
+      "frame_number": 93,
+      "timestamp": 3.1,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.62,
+        "analysis": "Frame 94/150"
+      }
+    },
+    {
+      "frame_number": 94,
+      "timestamp": 3.1333333333333333,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.6266666666666667,
+        "analysis": "Frame 95/150"
+      }
+    },
+    {
+      "frame_number": 95,
+      "timestamp": 3.1666666666666665,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.6333333333333333,
+        "analysis": "Frame 96/150"
+      }
+    },
+    {
+      "frame_number": 96,
+      "timestamp": 3.2,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.64,
+        "analysis": "Frame 97/150"
+      }
+    },
+    {
+      "frame_number": 97,
+      "timestamp": 3.2333333333333334,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.6466666666666666,
+        "analysis": "Frame 98/150"
+      }
+    },
+    {
+      "frame_number": 98,
+      "timestamp": 3.2666666666666666,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.6533333333333333,
+        "analysis": "Frame 99/150"
+      }
+    },
+    {
+      "frame_number": 99,
+      "timestamp": 3.3,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.66,
+        "analysis": "Frame 100/150"
+      }
+    },
+    {
+      "frame_number": 100,
+      "timestamp": 3.3333333333333335,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.6666666666666666,
+        "analysis": "Frame 101/150"
+      }
+    },
+    {
+      "frame_number": 101,
+      "timestamp": 3.3666666666666667,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.6733333333333333,
+        "analysis": "Frame 102/150"
+      }
+    },
+    {
+      "frame_number": 102,
+      "timestamp": 3.4,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.68,
+        "analysis": "Frame 103/150"
+      }
+    },
+    {
+      "frame_number": 103,
+      "timestamp": 3.433333333333333,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.6866666666666666,
+        "analysis": "Frame 104/150"
+      }
+    },
+    {
+      "frame_number": 104,
+      "timestamp": 3.466666666666667,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.6933333333333334,
+        "analysis": "Frame 105/150"
+      }
+    },
+    {
+      "frame_number": 105,
+      "timestamp": 3.5,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.7,
+        "analysis": "Frame 106/150"
+      }
+    },
+    {
+      "frame_number": 106,
+      "timestamp": 3.533333333333333,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.7066666666666667,
+        "analysis": "Frame 107/150"
+      }
+    },
+    {
+      "frame_number": 107,
+      "timestamp": 3.566666666666667,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.7133333333333334,
+        "analysis": "Frame 108/150"
+      }
+    },
+    {
+      "frame_number": 108,
+      "timestamp": 3.6,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.72,
+        "analysis": "Frame 109/150"
+      }
+    },
+    {
+      "frame_number": 109,
+      "timestamp": 3.6333333333333333,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.7266666666666667,
+        "analysis": "Frame 110/150"
+      }
+    },
+    {
+      "frame_number": 110,
+      "timestamp": 3.6666666666666665,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.7333333333333333,
+        "analysis": "Frame 111/150"
+      }
+    },
+    {
+      "frame_number": 111,
+      "timestamp": 3.7,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.74,
+        "analysis": "Frame 112/150"
+      }
+    },
+    {
+      "frame_number": 112,
+      "timestamp": 3.7333333333333334,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.7466666666666667,
+        "analysis": "Frame 113/150"
+      }
+    },
+    {
+      "frame_number": 113,
+      "timestamp": 3.7666666666666666,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.7533333333333333,
+        "analysis": "Frame 114/150"
+      }
+    },
+    {
+      "frame_number": 114,
+      "timestamp": 3.8,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.76,
+        "analysis": "Frame 115/150"
+      }
+    },
+    {
+      "frame_number": 115,
+      "timestamp": 3.8333333333333335,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.7666666666666667,
+        "analysis": "Frame 116/150"
+      }
+    },
+    {
+      "frame_number": 116,
+      "timestamp": 3.8666666666666667,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.7733333333333333,
+        "analysis": "Frame 117/150"
+      }
+    },
+    {
+      "frame_number": 117,
+      "timestamp": 3.9,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.78,
+        "analysis": "Frame 118/150"
+      }
+    },
+    {
+      "frame_number": 118,
+      "timestamp": 3.933333333333333,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.7866666666666666,
+        "analysis": "Frame 119/150"
+      }
+    },
+    {
+      "frame_number": 119,
+      "timestamp": 3.966666666666667,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.7933333333333333,
+        "analysis": "Frame 120/150"
+      }
+    },
+    {
+      "frame_number": 120,
+      "timestamp": 4.0,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.8,
+        "analysis": "Frame 121/150"
+      }
+    },
+    {
+      "frame_number": 121,
+      "timestamp": 4.033333333333333,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.8066666666666666,
+        "analysis": "Frame 122/150"
+      }
+    },
+    {
+      "frame_number": 122,
+      "timestamp": 4.066666666666666,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.8133333333333334,
+        "analysis": "Frame 123/150"
+      }
+    },
+    {
+      "frame_number": 123,
+      "timestamp": 4.1,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.82,
+        "analysis": "Frame 124/150"
+      }
+    },
+    {
+      "frame_number": 124,
+      "timestamp": 4.133333333333334,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.8266666666666667,
+        "analysis": "Frame 125/150"
+      }
+    },
+    {
+      "frame_number": 125,
+      "timestamp": 4.166666666666667,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.8333333333333334,
+        "analysis": "Frame 126/150"
+      }
+    },
+    {
+      "frame_number": 126,
+      "timestamp": 4.2,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.84,
+        "analysis": "Frame 127/150"
+      }
+    },
+    {
+      "frame_number": 127,
+      "timestamp": 4.233333333333333,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.8466666666666667,
+        "analysis": "Frame 128/150"
+      }
+    },
+    {
+      "frame_number": 128,
+      "timestamp": 4.266666666666667,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.8533333333333334,
+        "analysis": "Frame 129/150"
+      }
+    },
+    {
+      "frame_number": 129,
+      "timestamp": 4.3,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.86,
+        "analysis": "Frame 130/150"
+      }
+    },
+    {
+      "frame_number": 130,
+      "timestamp": 4.333333333333333,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.8666666666666667,
+        "analysis": "Frame 131/150"
+      }
+    },
+    {
+      "frame_number": 131,
+      "timestamp": 4.366666666666666,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.8733333333333333,
+        "analysis": "Frame 132/150"
+      }
+    },
+    {
+      "frame_number": 132,
+      "timestamp": 4.4,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.88,
+        "analysis": "Frame 133/150"
+      }
+    },
+    {
+      "frame_number": 133,
+      "timestamp": 4.433333333333334,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.8866666666666667,
+        "analysis": "Frame 134/150"
+      }
+    },
+    {
+      "frame_number": 134,
+      "timestamp": 4.466666666666667,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.8933333333333333,
+        "analysis": "Frame 135/150"
+      }
+    },
+    {
+      "frame_number": 135,
+      "timestamp": 4.5,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.9,
+        "analysis": "Frame 136/150"
+      }
+    },
+    {
+      "frame_number": 136,
+      "timestamp": 4.533333333333333,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.9066666666666666,
+        "analysis": "Frame 137/150"
+      }
+    },
+    {
+      "frame_number": 137,
+      "timestamp": 4.566666666666666,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.9133333333333333,
+        "analysis": "Frame 138/150"
+      }
+    },
+    {
+      "frame_number": 138,
+      "timestamp": 4.6,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.92,
+        "analysis": "Frame 139/150"
+      }
+    },
+    {
+      "frame_number": 139,
+      "timestamp": 4.633333333333334,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.9266666666666666,
+        "analysis": "Frame 140/150"
+      }
+    },
+    {
+      "frame_number": 140,
+      "timestamp": 4.666666666666667,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.9333333333333333,
+        "analysis": "Frame 141/150"
+      }
+    },
+    {
+      "frame_number": 141,
+      "timestamp": 4.7,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.94,
+        "analysis": "Frame 142/150"
+      }
+    },
+    {
+      "frame_number": 142,
+      "timestamp": 4.733333333333333,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.9466666666666667,
+        "analysis": "Frame 143/150"
+      }
+    },
+    {
+      "frame_number": 143,
+      "timestamp": 4.766666666666667,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.9533333333333334,
+        "analysis": "Frame 144/150"
+      }
+    },
+    {
+      "frame_number": 144,
+      "timestamp": 4.8,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.96,
+        "analysis": "Frame 145/150"
+      }
+    },
+    {
+      "frame_number": 145,
+      "timestamp": 4.833333333333333,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.9666666666666667,
+        "analysis": "Frame 146/150"
+      }
+    },
+    {
+      "frame_number": 146,
+      "timestamp": 4.866666666666666,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.9733333333333334,
+        "analysis": "Frame 147/150"
+      }
+    },
+    {
+      "frame_number": 147,
+      "timestamp": 4.9,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.98,
+        "analysis": "Frame 148/150"
+      }
+    },
+    {
+      "frame_number": 148,
+      "timestamp": 4.933333333333334,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.9866666666666667,
+        "analysis": "Frame 149/150"
+      }
+    },
+    {
+      "frame_number": 149,
+      "timestamp": 4.966666666666667,
+      "content": {
+        "expression": "\\x.x",
+        "progress": 0.9933333333333333,
+        "analysis": "Frame 150/150"
+      }
+    }
+  ],
+  "metadata": {
+    "total_frames": 150,
+    "fallback": true,
+    "note": "FFmpeg not available - frames saved as JSON"
+  }
+}

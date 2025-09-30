@@ -1,0 +1,115 @@
+{
+  "demo_results": {
+    "y_combinator": {
+      "name": "y_combinator",
+      "expression": "\\f.(\\x.f(x x))(\\x.f(x x))",
+      "parsed": "λf.λx.f xx (λx.f xx)",
+      "complexity": 20,
+      "variables": [],
+      "depth": 1,
+      "applications": 1,
+      "abstractions": 0,
+      "reduction_steps": 0,
+      "final_form": "λf.λx.f xx (λx.f xx)",
+      "reduction_complete": true,
+      "reduction_steps_detail": [
+        "λf.λx.f xx (λx.f xx)"
+      ],
+      "reduction_error": "'charmap' codec can't encode character '\\u03bb' in position 12: character maps to <undefined>",
+      "animation_file": "complex_y_combinator_c45349e9_frames.json"
+    },
+    "add_two_three": {
+      "name": "add_two_three",
+      "expression": "(\\m.\\n.\\f.\\x.m f (n f x)) (\\f.\\x.f(f x)) (\\f.\\x.f(f(f x)))",
+      "parsed": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+      "complexity": 50,
+      "variables": [],
+      "depth": 1,
+      "applications": 4,
+      "abstractions": 0,
+      "reduction_steps": 0,
+      "final_form": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+      "reduction_complete": true,
+      "reduction_steps_detail": [
+        "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))"
+      ],
+      "reduction_error": "'charmap' codec can't encode character '\\u03bb' in position 13: character maps to <undefined>",
+      "animation_file": "complex_add_two_three_39265e41_frames.json"
+    },
+    "mult_two_three": {
+      "name": "mult_two_three",
+      "expression": "(\\m.\\n.\\f.m(n f)) (\\f.\\x.f(f x)) (\\f.\\x.f(f(f x)))",
+      "parsed": "(λm.λn.λf.m nf (λf.λx.f fx)) (λf.λx.f (f fx))",
+      "complexity": 45,
+      "variables": [],
+      "depth": 1,
+      "applications": 4,
+      "abstractions": 0,
+      "reduction_steps": 0,
+      "final_form": "(λm.λn.λf.m nf (λf.λx.f fx)) (λf.λx.f (f fx))",
+      "reduction_complete": true,
+      "reduction_steps_detail": [
+        "(λm.λn.λf.m nf (λf.λx.f fx)) (λf.λx.f (f fx))"
+      ],
+      "reduction_error": "'charmap' codec can't encode character '\\u03bb' in position 13: character maps to <undefined>",
+      "animation_file": "complex_mult_two_three_3a7d243b_frames.json"
+    },
+    "pow_two_three": {
+      "name": "pow_two_three",
+      "expression": "(\\m.\\n.n m) (\\f.\\x.f(f x)) (\\f.\\x.f(f(f x)))",
+      "parsed": "(λm.λn.nm (λf.λx.f fx)) (λf.λx.f (f fx))",
+      "complexity": 40,
+      "variables": [],
+      "depth": 1,
+      "applications": 4,
+      "abstractions": 0,
+      "reduction_steps": 0,
+      "final_form": "(λm.λn.nm (λf.λx.f fx)) (λf.λx.f (f fx))",
+      "reduction_complete": true,
+      "reduction_steps_detail": [
+        "(λm.λn.nm (λf.λx.f fx)) (λf.λx.f (f fx))"
+      ],
+      "reduction_error": "'charmap' codec can't encode character '\\u03bb' in position 13: character maps to <undefined>",
+      "animation_file": "complex_pow_two_three_04f0bcc6_frames.json"
+    },
+    "very_complex": {
+      "name": "very_complex",
+      "expression": "((\\f.\\g.\\h.\\x.f(g(h x))) (\\x.x)) ((\\y.\\z.y z) (\\a.\\b.a)) ((\\c.\\d.c d) (\\e.\\f.e)) g",
+      "parsed": "(((λf.λg.λh.λx.f (g hx) (λx.x)) (λy.λz.yz (λa.λb.a))) (λc.λd.cd (λe.λf.e))) g",
+      "complexity": 77,
+      "variables": [],
+      "depth": 1,
+      "applications": 9,
+      "abstractions": 0,
+      "reduction_steps": 0,
+      "final_form": "(((λf.λg.λh.λx.f (g hx) (λx.x)) (λy.λz.yz (λa.λb.a))) (λc.λd.cd (λe.λf.e))) g",
+      "reduction_complete": true,
+      "reduction_steps_detail": [
+        "(((λf.λg.λh.λx.f (g hx) (λx.x)) (λy.λz.yz (λa.λb.a))) (λc.λd.cd (λe.λf.e))) g"
+      ],
+      "reduction_error": "'charmap' codec can't encode character '\\u03bb' in position 15: character maps to <undefined>",
+      "animation_file": "complex_very_complex_8a9e3f1d_frames.json"
+    },
+    "map_successor_simple": {
+      "name": "map_successor_simple",
+      "expression": "((\\f.\\l.\\g.l (\\x.\\y.g (f x) (map_successor_simple f y)) (\\x.\\y.y)) (\\n.\\f.\\x.f(n f x))) (cons (\\f.\\x.f x) (cons (\\f.\\x.f(f x)) (cons (\\f.\\x.f(f(f x))) (\\x.\\y.y))))",
+      "parsed": "(λf.λl.λg.(l (λx.λy.(g fx) map_successor_simplefy)) (λx.λy.y) (λn.λf.λx.f nfx)) ((cons (λf.λx.fx)) ((cons (λf.λx.f fx)) ((cons (λf.λx.f (f fx))) (λx.λy.y))))",
+      "complexity": 157,
+      "variables": [],
+      "depth": 1,
+      "applications": 17,
+      "abstractions": 0,
+      "reduction_steps": 0,
+      "final_form": "(λf.λl.λg.(l (λx.λy.(g fx) map_successor_simplefy)) (λx.λy.y) (λn.λf.λx.f nfx)) ((cons (λf.λx.fx)) ((cons (λf.λx.f fx)) ((cons (λf.λx.f (f fx))) (λx.λy.y))))",
+      "reduction_complete": true,
+      "reduction_steps_detail": [
+        "(λf.λl.λg.(l (λx.λy.(g fx) map_successor_simplefy)) (λx.λy.y) (λn.λf.λx.f nfx)) ((cons (λf.λx.fx)) ((cons (λf.λx.f fx)) ((cons (λf.λx.f (f fx))) (λx.λy.y))))"
+      ],
+      "reduction_error": "'charmap' codec can't encode character '\\u03bb' in position 13: character maps to <undefined>",
+      "animation_file": "complex_map_successor_simple_cf06608e_frames.json"
+    }
+  },
+  "total_expressions": 6,
+  "successful_animations": 6,
+  "created_at": "2025-09-30T12:39:05.062903"
+}

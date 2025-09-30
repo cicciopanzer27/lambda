@@ -1,0 +1,2894 @@
+{
+  "frames": [
+    {
+      "frame_number": 0,
+      "timestamp": 0.0,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.0,
+        "analysis": "Step 1/10 - add_two_three",
+        "step_index": 0,
+        "total_steps": 10,
+        "reduction_progress": 0.0
+      }
+    },
+    {
+      "frame_number": 1,
+      "timestamp": 0.03333333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.0041841004184100415,
+        "analysis": "Step 1/10 - add_two_three",
+        "step_index": 0,
+        "total_steps": 10,
+        "reduction_progress": 0.0
+      }
+    },
+    {
+      "frame_number": 2,
+      "timestamp": 0.06666666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.008368200836820083,
+        "analysis": "Step 1/10 - add_two_three",
+        "step_index": 0,
+        "total_steps": 10,
+        "reduction_progress": 0.0
+      }
+    },
+    {
+      "frame_number": 3,
+      "timestamp": 0.1,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.012552301255230125,
+        "analysis": "Step 1/10 - add_two_three",
+        "step_index": 0,
+        "total_steps": 10,
+        "reduction_progress": 0.0
+      }
+    },
+    {
+      "frame_number": 4,
+      "timestamp": 0.13333333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.016736401673640166,
+        "analysis": "Step 1/10 - add_two_three",
+        "step_index": 0,
+        "total_steps": 10,
+        "reduction_progress": 0.0
+      }
+    },
+    {
+      "frame_number": 5,
+      "timestamp": 0.16666666666666666,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.02092050209205021,
+        "analysis": "Step 1/10 - add_two_three",
+        "step_index": 0,
+        "total_steps": 10,
+        "reduction_progress": 0.0
+      }
+    },
+    {
+      "frame_number": 6,
+      "timestamp": 0.2,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.02510460251046025,
+        "analysis": "Step 1/10 - add_two_three",
+        "step_index": 0,
+        "total_steps": 10,
+        "reduction_progress": 0.0
+      }
+    },
+    {
+      "frame_number": 7,
+      "timestamp": 0.23333333333333334,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.029288702928870293,
+        "analysis": "Step 1/10 - add_two_three",
+        "step_index": 0,
+        "total_steps": 10,
+        "reduction_progress": 0.0
+      }
+    },
+    {
+      "frame_number": 8,
+      "timestamp": 0.26666666666666666,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.03347280334728033,
+        "analysis": "Step 1/10 - add_two_three",
+        "step_index": 0,
+        "total_steps": 10,
+        "reduction_progress": 0.0
+      }
+    },
+    {
+      "frame_number": 9,
+      "timestamp": 0.3,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.03765690376569038,
+        "analysis": "Step 1/10 - add_two_three",
+        "step_index": 0,
+        "total_steps": 10,
+        "reduction_progress": 0.0
+      }
+    },
+    {
+      "frame_number": 10,
+      "timestamp": 0.3333333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.04184100418410042,
+        "analysis": "Step 1/10 - add_two_three",
+        "step_index": 0,
+        "total_steps": 10,
+        "reduction_progress": 0.0
+      }
+    },
+    {
+      "frame_number": 11,
+      "timestamp": 0.36666666666666664,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.04602510460251046,
+        "analysis": "Step 1/10 - add_two_three",
+        "step_index": 0,
+        "total_steps": 10,
+        "reduction_progress": 0.0
+      }
+    },
+    {
+      "frame_number": 12,
+      "timestamp": 0.4,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.0502092050209205,
+        "analysis": "Step 1/10 - add_two_three",
+        "step_index": 0,
+        "total_steps": 10,
+        "reduction_progress": 0.0
+      }
+    },
+    {
+      "frame_number": 13,
+      "timestamp": 0.43333333333333335,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.05439330543933055,
+        "analysis": "Step 1/10 - add_two_three",
+        "step_index": 0,
+        "total_steps": 10,
+        "reduction_progress": 0.0
+      }
+    },
+    {
+      "frame_number": 14,
+      "timestamp": 0.4666666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.058577405857740586,
+        "analysis": "Step 1/10 - add_two_three",
+        "step_index": 0,
+        "total_steps": 10,
+        "reduction_progress": 0.0
+      }
+    },
+    {
+      "frame_number": 15,
+      "timestamp": 0.5,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.06276150627615062,
+        "analysis": "Step 1/10 - add_two_three",
+        "step_index": 0,
+        "total_steps": 10,
+        "reduction_progress": 0.0
+      }
+    },
+    {
+      "frame_number": 16,
+      "timestamp": 0.5333333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.06694560669456066,
+        "analysis": "Step 1/10 - add_two_three",
+        "step_index": 0,
+        "total_steps": 10,
+        "reduction_progress": 0.0
+      }
+    },
+    {
+      "frame_number": 17,
+      "timestamp": 0.5666666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.07112970711297072,
+        "analysis": "Step 1/10 - add_two_three",
+        "step_index": 0,
+        "total_steps": 10,
+        "reduction_progress": 0.0
+      }
+    },
+    {
+      "frame_number": 18,
+      "timestamp": 0.6,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.07531380753138076,
+        "analysis": "Step 1/10 - add_two_three",
+        "step_index": 0,
+        "total_steps": 10,
+        "reduction_progress": 0.0
+      }
+    },
+    {
+      "frame_number": 19,
+      "timestamp": 0.6333333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.0794979079497908,
+        "analysis": "Step 1/10 - add_two_three",
+        "step_index": 0,
+        "total_steps": 10,
+        "reduction_progress": 0.0
+      }
+    },
+    {
+      "frame_number": 20,
+      "timestamp": 0.6666666666666666,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.08368200836820083,
+        "analysis": "Step 1/10 - add_two_three",
+        "step_index": 0,
+        "total_steps": 10,
+        "reduction_progress": 0.0
+      }
+    },
+    {
+      "frame_number": 21,
+      "timestamp": 0.7,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.08786610878661087,
+        "analysis": "Step 1/10 - add_two_three",
+        "step_index": 0,
+        "total_steps": 10,
+        "reduction_progress": 0.0
+      }
+    },
+    {
+      "frame_number": 22,
+      "timestamp": 0.7333333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.09205020920502092,
+        "analysis": "Step 1/10 - add_two_three",
+        "step_index": 0,
+        "total_steps": 10,
+        "reduction_progress": 0.0
+      }
+    },
+    {
+      "frame_number": 23,
+      "timestamp": 0.7666666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.09623430962343096,
+        "analysis": "Step 1/10 - add_two_three",
+        "step_index": 0,
+        "total_steps": 10,
+        "reduction_progress": 0.0
+      }
+    },
+    {
+      "frame_number": 24,
+      "timestamp": 0.8,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.100418410041841,
+        "analysis": "Step 2/10 - add_two_three",
+        "step_index": 1,
+        "total_steps": 10,
+        "reduction_progress": 0.1111111111111111
+      }
+    },
+    {
+      "frame_number": 25,
+      "timestamp": 0.8333333333333334,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.10460251046025104,
+        "analysis": "Step 2/10 - add_two_three",
+        "step_index": 1,
+        "total_steps": 10,
+        "reduction_progress": 0.1111111111111111
+      }
+    },
+    {
+      "frame_number": 26,
+      "timestamp": 0.8666666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.1087866108786611,
+        "analysis": "Step 2/10 - add_two_three",
+        "step_index": 1,
+        "total_steps": 10,
+        "reduction_progress": 0.1111111111111111
+      }
+    },
+    {
+      "frame_number": 27,
+      "timestamp": 0.9,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.11297071129707113,
+        "analysis": "Step 2/10 - add_two_three",
+        "step_index": 1,
+        "total_steps": 10,
+        "reduction_progress": 0.1111111111111111
+      }
+    },
+    {
+      "frame_number": 28,
+      "timestamp": 0.9333333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.11715481171548117,
+        "analysis": "Step 2/10 - add_two_three",
+        "step_index": 1,
+        "total_steps": 10,
+        "reduction_progress": 0.1111111111111111
+      }
+    },
+    {
+      "frame_number": 29,
+      "timestamp": 0.9666666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.12133891213389121,
+        "analysis": "Step 2/10 - add_two_three",
+        "step_index": 1,
+        "total_steps": 10,
+        "reduction_progress": 0.1111111111111111
+      }
+    },
+    {
+      "frame_number": 30,
+      "timestamp": 1.0,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.12552301255230125,
+        "analysis": "Step 2/10 - add_two_three",
+        "step_index": 1,
+        "total_steps": 10,
+        "reduction_progress": 0.1111111111111111
+      }
+    },
+    {
+      "frame_number": 31,
+      "timestamp": 1.0333333333333334,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.1297071129707113,
+        "analysis": "Step 2/10 - add_two_three",
+        "step_index": 1,
+        "total_steps": 10,
+        "reduction_progress": 0.1111111111111111
+      }
+    },
+    {
+      "frame_number": 32,
+      "timestamp": 1.0666666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.13389121338912133,
+        "analysis": "Step 2/10 - add_two_three",
+        "step_index": 1,
+        "total_steps": 10,
+        "reduction_progress": 0.1111111111111111
+      }
+    },
+    {
+      "frame_number": 33,
+      "timestamp": 1.1,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.13807531380753138,
+        "analysis": "Step 2/10 - add_two_three",
+        "step_index": 1,
+        "total_steps": 10,
+        "reduction_progress": 0.1111111111111111
+      }
+    },
+    {
+      "frame_number": 34,
+      "timestamp": 1.1333333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.14225941422594143,
+        "analysis": "Step 2/10 - add_two_three",
+        "step_index": 1,
+        "total_steps": 10,
+        "reduction_progress": 0.1111111111111111
+      }
+    },
+    {
+      "frame_number": 35,
+      "timestamp": 1.1666666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.14644351464435146,
+        "analysis": "Step 2/10 - add_two_three",
+        "step_index": 1,
+        "total_steps": 10,
+        "reduction_progress": 0.1111111111111111
+      }
+    },
+    {
+      "frame_number": 36,
+      "timestamp": 1.2,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.1506276150627615,
+        "analysis": "Step 2/10 - add_two_three",
+        "step_index": 1,
+        "total_steps": 10,
+        "reduction_progress": 0.1111111111111111
+      }
+    },
+    {
+      "frame_number": 37,
+      "timestamp": 1.2333333333333334,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.15481171548117154,
+        "analysis": "Step 2/10 - add_two_three",
+        "step_index": 1,
+        "total_steps": 10,
+        "reduction_progress": 0.1111111111111111
+      }
+    },
+    {
+      "frame_number": 38,
+      "timestamp": 1.2666666666666666,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.1589958158995816,
+        "analysis": "Step 2/10 - add_two_three",
+        "step_index": 1,
+        "total_steps": 10,
+        "reduction_progress": 0.1111111111111111
+      }
+    },
+    {
+      "frame_number": 39,
+      "timestamp": 1.3,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.16317991631799164,
+        "analysis": "Step 2/10 - add_two_three",
+        "step_index": 1,
+        "total_steps": 10,
+        "reduction_progress": 0.1111111111111111
+      }
+    },
+    {
+      "frame_number": 40,
+      "timestamp": 1.3333333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.16736401673640167,
+        "analysis": "Step 2/10 - add_two_three",
+        "step_index": 1,
+        "total_steps": 10,
+        "reduction_progress": 0.1111111111111111
+      }
+    },
+    {
+      "frame_number": 41,
+      "timestamp": 1.3666666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.17154811715481172,
+        "analysis": "Step 2/10 - add_two_three",
+        "step_index": 1,
+        "total_steps": 10,
+        "reduction_progress": 0.1111111111111111
+      }
+    },
+    {
+      "frame_number": 42,
+      "timestamp": 1.4,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.17573221757322174,
+        "analysis": "Step 2/10 - add_two_three",
+        "step_index": 1,
+        "total_steps": 10,
+        "reduction_progress": 0.1111111111111111
+      }
+    },
+    {
+      "frame_number": 43,
+      "timestamp": 1.4333333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.1799163179916318,
+        "analysis": "Step 2/10 - add_two_three",
+        "step_index": 1,
+        "total_steps": 10,
+        "reduction_progress": 0.1111111111111111
+      }
+    },
+    {
+      "frame_number": 44,
+      "timestamp": 1.4666666666666666,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.18410041841004185,
+        "analysis": "Step 2/10 - add_two_three",
+        "step_index": 1,
+        "total_steps": 10,
+        "reduction_progress": 0.1111111111111111
+      }
+    },
+    {
+      "frame_number": 45,
+      "timestamp": 1.5,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.18828451882845187,
+        "analysis": "Step 2/10 - add_two_three",
+        "step_index": 1,
+        "total_steps": 10,
+        "reduction_progress": 0.1111111111111111
+      }
+    },
+    {
+      "frame_number": 46,
+      "timestamp": 1.5333333333333334,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.19246861924686193,
+        "analysis": "Step 2/10 - add_two_three",
+        "step_index": 1,
+        "total_steps": 10,
+        "reduction_progress": 0.1111111111111111
+      }
+    },
+    {
+      "frame_number": 47,
+      "timestamp": 1.5666666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.19665271966527198,
+        "analysis": "Step 2/10 - add_two_three",
+        "step_index": 1,
+        "total_steps": 10,
+        "reduction_progress": 0.1111111111111111
+      }
+    },
+    {
+      "frame_number": 48,
+      "timestamp": 1.6,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.200836820083682,
+        "analysis": "Step 3/10 - add_two_three",
+        "step_index": 2,
+        "total_steps": 10,
+        "reduction_progress": 0.2222222222222222
+      }
+    },
+    {
+      "frame_number": 49,
+      "timestamp": 1.6333333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.20502092050209206,
+        "analysis": "Step 3/10 - add_two_three",
+        "step_index": 2,
+        "total_steps": 10,
+        "reduction_progress": 0.2222222222222222
+      }
+    },
+    {
+      "frame_number": 50,
+      "timestamp": 1.6666666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.20920502092050208,
+        "analysis": "Step 3/10 - add_two_three",
+        "step_index": 2,
+        "total_steps": 10,
+        "reduction_progress": 0.2222222222222222
+      }
+    },
+    {
+      "frame_number": 51,
+      "timestamp": 1.7,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.21338912133891214,
+        "analysis": "Step 3/10 - add_two_three",
+        "step_index": 2,
+        "total_steps": 10,
+        "reduction_progress": 0.2222222222222222
+      }
+    },
+    {
+      "frame_number": 52,
+      "timestamp": 1.7333333333333334,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.2175732217573222,
+        "analysis": "Step 3/10 - add_two_three",
+        "step_index": 2,
+        "total_steps": 10,
+        "reduction_progress": 0.2222222222222222
+      }
+    },
+    {
+      "frame_number": 53,
+      "timestamp": 1.7666666666666666,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.2217573221757322,
+        "analysis": "Step 3/10 - add_two_three",
+        "step_index": 2,
+        "total_steps": 10,
+        "reduction_progress": 0.2222222222222222
+      }
+    },
+    {
+      "frame_number": 54,
+      "timestamp": 1.8,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.22594142259414227,
+        "analysis": "Step 3/10 - add_two_three",
+        "step_index": 2,
+        "total_steps": 10,
+        "reduction_progress": 0.2222222222222222
+      }
+    },
+    {
+      "frame_number": 55,
+      "timestamp": 1.8333333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.2301255230125523,
+        "analysis": "Step 3/10 - add_two_three",
+        "step_index": 2,
+        "total_steps": 10,
+        "reduction_progress": 0.2222222222222222
+      }
+    },
+    {
+      "frame_number": 56,
+      "timestamp": 1.8666666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.23430962343096234,
+        "analysis": "Step 3/10 - add_two_three",
+        "step_index": 2,
+        "total_steps": 10,
+        "reduction_progress": 0.2222222222222222
+      }
+    },
+    {
+      "frame_number": 57,
+      "timestamp": 1.9,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.2384937238493724,
+        "analysis": "Step 3/10 - add_two_three",
+        "step_index": 2,
+        "total_steps": 10,
+        "reduction_progress": 0.2222222222222222
+      }
+    },
+    {
+      "frame_number": 58,
+      "timestamp": 1.9333333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.24267782426778242,
+        "analysis": "Step 3/10 - add_two_three",
+        "step_index": 2,
+        "total_steps": 10,
+        "reduction_progress": 0.2222222222222222
+      }
+    },
+    {
+      "frame_number": 59,
+      "timestamp": 1.9666666666666666,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.24686192468619247,
+        "analysis": "Step 3/10 - add_two_three",
+        "step_index": 2,
+        "total_steps": 10,
+        "reduction_progress": 0.2222222222222222
+      }
+    },
+    {
+      "frame_number": 60,
+      "timestamp": 2.0,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.2510460251046025,
+        "analysis": "Step 3/10 - add_two_three",
+        "step_index": 2,
+        "total_steps": 10,
+        "reduction_progress": 0.2222222222222222
+      }
+    },
+    {
+      "frame_number": 61,
+      "timestamp": 2.033333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.25523012552301255,
+        "analysis": "Step 3/10 - add_two_three",
+        "step_index": 2,
+        "total_steps": 10,
+        "reduction_progress": 0.2222222222222222
+      }
+    },
+    {
+      "frame_number": 62,
+      "timestamp": 2.066666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.2594142259414226,
+        "analysis": "Step 3/10 - add_two_three",
+        "step_index": 2,
+        "total_steps": 10,
+        "reduction_progress": 0.2222222222222222
+      }
+    },
+    {
+      "frame_number": 63,
+      "timestamp": 2.1,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.26359832635983266,
+        "analysis": "Step 3/10 - add_two_three",
+        "step_index": 2,
+        "total_steps": 10,
+        "reduction_progress": 0.2222222222222222
+      }
+    },
+    {
+      "frame_number": 64,
+      "timestamp": 2.1333333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.26778242677824265,
+        "analysis": "Step 3/10 - add_two_three",
+        "step_index": 2,
+        "total_steps": 10,
+        "reduction_progress": 0.2222222222222222
+      }
+    },
+    {
+      "frame_number": 65,
+      "timestamp": 2.1666666666666665,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.2719665271966527,
+        "analysis": "Step 3/10 - add_two_three",
+        "step_index": 2,
+        "total_steps": 10,
+        "reduction_progress": 0.2222222222222222
+      }
+    },
+    {
+      "frame_number": 66,
+      "timestamp": 2.2,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.27615062761506276,
+        "analysis": "Step 3/10 - add_two_three",
+        "step_index": 2,
+        "total_steps": 10,
+        "reduction_progress": 0.2222222222222222
+      }
+    },
+    {
+      "frame_number": 67,
+      "timestamp": 2.2333333333333334,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.2803347280334728,
+        "analysis": "Step 3/10 - add_two_three",
+        "step_index": 2,
+        "total_steps": 10,
+        "reduction_progress": 0.2222222222222222
+      }
+    },
+    {
+      "frame_number": 68,
+      "timestamp": 2.2666666666666666,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.28451882845188287,
+        "analysis": "Step 3/10 - add_two_three",
+        "step_index": 2,
+        "total_steps": 10,
+        "reduction_progress": 0.2222222222222222
+      }
+    },
+    {
+      "frame_number": 69,
+      "timestamp": 2.3,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.28870292887029286,
+        "analysis": "Step 3/10 - add_two_three",
+        "step_index": 2,
+        "total_steps": 10,
+        "reduction_progress": 0.2222222222222222
+      }
+    },
+    {
+      "frame_number": 70,
+      "timestamp": 2.3333333333333335,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.2928870292887029,
+        "analysis": "Step 3/10 - add_two_three",
+        "step_index": 2,
+        "total_steps": 10,
+        "reduction_progress": 0.2222222222222222
+      }
+    },
+    {
+      "frame_number": 71,
+      "timestamp": 2.3666666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.29707112970711297,
+        "analysis": "Step 3/10 - add_two_three",
+        "step_index": 2,
+        "total_steps": 10,
+        "reduction_progress": 0.2222222222222222
+      }
+    },
+    {
+      "frame_number": 72,
+      "timestamp": 2.4,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.301255230125523,
+        "analysis": "Step 4/10 - add_two_three",
+        "step_index": 3,
+        "total_steps": 10,
+        "reduction_progress": 0.3333333333333333
+      }
+    },
+    {
+      "frame_number": 73,
+      "timestamp": 2.433333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.3054393305439331,
+        "analysis": "Step 4/10 - add_two_three",
+        "step_index": 3,
+        "total_steps": 10,
+        "reduction_progress": 0.3333333333333333
+      }
+    },
+    {
+      "frame_number": 74,
+      "timestamp": 2.466666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.30962343096234307,
+        "analysis": "Step 4/10 - add_two_three",
+        "step_index": 3,
+        "total_steps": 10,
+        "reduction_progress": 0.3333333333333333
+      }
+    },
+    {
+      "frame_number": 75,
+      "timestamp": 2.5,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.3138075313807531,
+        "analysis": "Step 4/10 - add_two_three",
+        "step_index": 3,
+        "total_steps": 10,
+        "reduction_progress": 0.3333333333333333
+      }
+    },
+    {
+      "frame_number": 76,
+      "timestamp": 2.533333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.3179916317991632,
+        "analysis": "Step 4/10 - add_two_three",
+        "step_index": 3,
+        "total_steps": 10,
+        "reduction_progress": 0.3333333333333333
+      }
+    },
+    {
+      "frame_number": 77,
+      "timestamp": 2.566666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.32217573221757323,
+        "analysis": "Step 4/10 - add_two_three",
+        "step_index": 3,
+        "total_steps": 10,
+        "reduction_progress": 0.3333333333333333
+      }
+    },
+    {
+      "frame_number": 78,
+      "timestamp": 2.6,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.3263598326359833,
+        "analysis": "Step 4/10 - add_two_three",
+        "step_index": 3,
+        "total_steps": 10,
+        "reduction_progress": 0.3333333333333333
+      }
+    },
+    {
+      "frame_number": 79,
+      "timestamp": 2.6333333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.3305439330543933,
+        "analysis": "Step 4/10 - add_two_three",
+        "step_index": 3,
+        "total_steps": 10,
+        "reduction_progress": 0.3333333333333333
+      }
+    },
+    {
+      "frame_number": 80,
+      "timestamp": 2.6666666666666665,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.33472803347280333,
+        "analysis": "Step 4/10 - add_two_three",
+        "step_index": 3,
+        "total_steps": 10,
+        "reduction_progress": 0.3333333333333333
+      }
+    },
+    {
+      "frame_number": 81,
+      "timestamp": 2.7,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.3389121338912134,
+        "analysis": "Step 4/10 - add_two_three",
+        "step_index": 3,
+        "total_steps": 10,
+        "reduction_progress": 0.3333333333333333
+      }
+    },
+    {
+      "frame_number": 82,
+      "timestamp": 2.7333333333333334,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.34309623430962344,
+        "analysis": "Step 4/10 - add_two_three",
+        "step_index": 3,
+        "total_steps": 10,
+        "reduction_progress": 0.3333333333333333
+      }
+    },
+    {
+      "frame_number": 83,
+      "timestamp": 2.7666666666666666,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.3472803347280335,
+        "analysis": "Step 4/10 - add_two_three",
+        "step_index": 3,
+        "total_steps": 10,
+        "reduction_progress": 0.3333333333333333
+      }
+    },
+    {
+      "frame_number": 84,
+      "timestamp": 2.8,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.3514644351464435,
+        "analysis": "Step 4/10 - add_two_three",
+        "step_index": 3,
+        "total_steps": 10,
+        "reduction_progress": 0.3333333333333333
+      }
+    },
+    {
+      "frame_number": 85,
+      "timestamp": 2.8333333333333335,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.35564853556485354,
+        "analysis": "Step 4/10 - add_two_three",
+        "step_index": 3,
+        "total_steps": 10,
+        "reduction_progress": 0.3333333333333333
+      }
+    },
+    {
+      "frame_number": 86,
+      "timestamp": 2.8666666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.3598326359832636,
+        "analysis": "Step 4/10 - add_two_three",
+        "step_index": 3,
+        "total_steps": 10,
+        "reduction_progress": 0.3333333333333333
+      }
+    },
+    {
+      "frame_number": 87,
+      "timestamp": 2.9,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.36401673640167365,
+        "analysis": "Step 4/10 - add_two_three",
+        "step_index": 3,
+        "total_steps": 10,
+        "reduction_progress": 0.3333333333333333
+      }
+    },
+    {
+      "frame_number": 88,
+      "timestamp": 2.933333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.3682008368200837,
+        "analysis": "Step 4/10 - add_two_three",
+        "step_index": 3,
+        "total_steps": 10,
+        "reduction_progress": 0.3333333333333333
+      }
+    },
+    {
+      "frame_number": 89,
+      "timestamp": 2.966666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.3723849372384937,
+        "analysis": "Step 4/10 - add_two_three",
+        "step_index": 3,
+        "total_steps": 10,
+        "reduction_progress": 0.3333333333333333
+      }
+    },
+    {
+      "frame_number": 90,
+      "timestamp": 3.0,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.37656903765690375,
+        "analysis": "Step 4/10 - add_two_three",
+        "step_index": 3,
+        "total_steps": 10,
+        "reduction_progress": 0.3333333333333333
+      }
+    },
+    {
+      "frame_number": 91,
+      "timestamp": 3.033333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.3807531380753138,
+        "analysis": "Step 4/10 - add_two_three",
+        "step_index": 3,
+        "total_steps": 10,
+        "reduction_progress": 0.3333333333333333
+      }
+    },
+    {
+      "frame_number": 92,
+      "timestamp": 3.066666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.38493723849372385,
+        "analysis": "Step 4/10 - add_two_three",
+        "step_index": 3,
+        "total_steps": 10,
+        "reduction_progress": 0.3333333333333333
+      }
+    },
+    {
+      "frame_number": 93,
+      "timestamp": 3.1,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.3891213389121339,
+        "analysis": "Step 4/10 - add_two_three",
+        "step_index": 3,
+        "total_steps": 10,
+        "reduction_progress": 0.3333333333333333
+      }
+    },
+    {
+      "frame_number": 94,
+      "timestamp": 3.1333333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.39330543933054396,
+        "analysis": "Step 4/10 - add_two_three",
+        "step_index": 3,
+        "total_steps": 10,
+        "reduction_progress": 0.3333333333333333
+      }
+    },
+    {
+      "frame_number": 95,
+      "timestamp": 3.1666666666666665,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.39748953974895396,
+        "analysis": "Step 4/10 - add_two_three",
+        "step_index": 3,
+        "total_steps": 10,
+        "reduction_progress": 0.3333333333333333
+      }
+    },
+    {
+      "frame_number": 96,
+      "timestamp": 3.2,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.401673640167364,
+        "analysis": "Step 5/10 - add_two_three",
+        "step_index": 4,
+        "total_steps": 10,
+        "reduction_progress": 0.4444444444444444
+      }
+    },
+    {
+      "frame_number": 97,
+      "timestamp": 3.2333333333333334,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.40585774058577406,
+        "analysis": "Step 5/10 - add_two_three",
+        "step_index": 4,
+        "total_steps": 10,
+        "reduction_progress": 0.4444444444444444
+      }
+    },
+    {
+      "frame_number": 98,
+      "timestamp": 3.2666666666666666,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.4100418410041841,
+        "analysis": "Step 5/10 - add_two_three",
+        "step_index": 4,
+        "total_steps": 10,
+        "reduction_progress": 0.4444444444444444
+      }
+    },
+    {
+      "frame_number": 99,
+      "timestamp": 3.3,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.41422594142259417,
+        "analysis": "Step 5/10 - add_two_three",
+        "step_index": 4,
+        "total_steps": 10,
+        "reduction_progress": 0.4444444444444444
+      }
+    },
+    {
+      "frame_number": 100,
+      "timestamp": 3.3333333333333335,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.41841004184100417,
+        "analysis": "Step 5/10 - add_two_three",
+        "step_index": 4,
+        "total_steps": 10,
+        "reduction_progress": 0.4444444444444444
+      }
+    },
+    {
+      "frame_number": 101,
+      "timestamp": 3.3666666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.4225941422594142,
+        "analysis": "Step 5/10 - add_two_three",
+        "step_index": 4,
+        "total_steps": 10,
+        "reduction_progress": 0.4444444444444444
+      }
+    },
+    {
+      "frame_number": 102,
+      "timestamp": 3.4,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.42677824267782427,
+        "analysis": "Step 5/10 - add_two_three",
+        "step_index": 4,
+        "total_steps": 10,
+        "reduction_progress": 0.4444444444444444
+      }
+    },
+    {
+      "frame_number": 103,
+      "timestamp": 3.433333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.4309623430962343,
+        "analysis": "Step 5/10 - add_two_three",
+        "step_index": 4,
+        "total_steps": 10,
+        "reduction_progress": 0.4444444444444444
+      }
+    },
+    {
+      "frame_number": 104,
+      "timestamp": 3.466666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.4351464435146444,
+        "analysis": "Step 5/10 - add_two_three",
+        "step_index": 4,
+        "total_steps": 10,
+        "reduction_progress": 0.4444444444444444
+      }
+    },
+    {
+      "frame_number": 105,
+      "timestamp": 3.5,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.4393305439330544,
+        "analysis": "Step 5/10 - add_two_three",
+        "step_index": 4,
+        "total_steps": 10,
+        "reduction_progress": 0.4444444444444444
+      }
+    },
+    {
+      "frame_number": 106,
+      "timestamp": 3.533333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.4435146443514644,
+        "analysis": "Step 5/10 - add_two_three",
+        "step_index": 4,
+        "total_steps": 10,
+        "reduction_progress": 0.4444444444444444
+      }
+    },
+    {
+      "frame_number": 107,
+      "timestamp": 3.566666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.4476987447698745,
+        "analysis": "Step 5/10 - add_two_three",
+        "step_index": 4,
+        "total_steps": 10,
+        "reduction_progress": 0.4444444444444444
+      }
+    },
+    {
+      "frame_number": 108,
+      "timestamp": 3.6,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.45188284518828453,
+        "analysis": "Step 5/10 - add_two_three",
+        "step_index": 4,
+        "total_steps": 10,
+        "reduction_progress": 0.4444444444444444
+      }
+    },
+    {
+      "frame_number": 109,
+      "timestamp": 3.6333333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.4560669456066946,
+        "analysis": "Step 5/10 - add_two_three",
+        "step_index": 4,
+        "total_steps": 10,
+        "reduction_progress": 0.4444444444444444
+      }
+    },
+    {
+      "frame_number": 110,
+      "timestamp": 3.6666666666666665,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.4602510460251046,
+        "analysis": "Step 5/10 - add_two_three",
+        "step_index": 4,
+        "total_steps": 10,
+        "reduction_progress": 0.4444444444444444
+      }
+    },
+    {
+      "frame_number": 111,
+      "timestamp": 3.7,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.46443514644351463,
+        "analysis": "Step 5/10 - add_two_three",
+        "step_index": 4,
+        "total_steps": 10,
+        "reduction_progress": 0.4444444444444444
+      }
+    },
+    {
+      "frame_number": 112,
+      "timestamp": 3.7333333333333334,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.4686192468619247,
+        "analysis": "Step 5/10 - add_two_three",
+        "step_index": 4,
+        "total_steps": 10,
+        "reduction_progress": 0.4444444444444444
+      }
+    },
+    {
+      "frame_number": 113,
+      "timestamp": 3.7666666666666666,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.47280334728033474,
+        "analysis": "Step 5/10 - add_two_three",
+        "step_index": 4,
+        "total_steps": 10,
+        "reduction_progress": 0.4444444444444444
+      }
+    },
+    {
+      "frame_number": 114,
+      "timestamp": 3.8,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.4769874476987448,
+        "analysis": "Step 5/10 - add_two_three",
+        "step_index": 4,
+        "total_steps": 10,
+        "reduction_progress": 0.4444444444444444
+      }
+    },
+    {
+      "frame_number": 115,
+      "timestamp": 3.8333333333333335,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.4811715481171548,
+        "analysis": "Step 5/10 - add_two_three",
+        "step_index": 4,
+        "total_steps": 10,
+        "reduction_progress": 0.4444444444444444
+      }
+    },
+    {
+      "frame_number": 116,
+      "timestamp": 3.8666666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.48535564853556484,
+        "analysis": "Step 5/10 - add_two_three",
+        "step_index": 4,
+        "total_steps": 10,
+        "reduction_progress": 0.4444444444444444
+      }
+    },
+    {
+      "frame_number": 117,
+      "timestamp": 3.9,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.4895397489539749,
+        "analysis": "Step 5/10 - add_two_three",
+        "step_index": 4,
+        "total_steps": 10,
+        "reduction_progress": 0.4444444444444444
+      }
+    },
+    {
+      "frame_number": 118,
+      "timestamp": 3.933333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.49372384937238495,
+        "analysis": "Step 5/10 - add_two_three",
+        "step_index": 4,
+        "total_steps": 10,
+        "reduction_progress": 0.4444444444444444
+      }
+    },
+    {
+      "frame_number": 119,
+      "timestamp": 3.966666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.497907949790795,
+        "analysis": "Step 5/10 - add_two_three",
+        "step_index": 4,
+        "total_steps": 10,
+        "reduction_progress": 0.4444444444444444
+      }
+    },
+    {
+      "frame_number": 120,
+      "timestamp": 4.0,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.502092050209205,
+        "analysis": "Step 6/10 - add_two_three",
+        "step_index": 5,
+        "total_steps": 10,
+        "reduction_progress": 0.5555555555555556
+      }
+    },
+    {
+      "frame_number": 121,
+      "timestamp": 4.033333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.5062761506276151,
+        "analysis": "Step 6/10 - add_two_three",
+        "step_index": 5,
+        "total_steps": 10,
+        "reduction_progress": 0.5555555555555556
+      }
+    },
+    {
+      "frame_number": 122,
+      "timestamp": 4.066666666666666,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.5104602510460251,
+        "analysis": "Step 6/10 - add_two_three",
+        "step_index": 5,
+        "total_steps": 10,
+        "reduction_progress": 0.5555555555555556
+      }
+    },
+    {
+      "frame_number": 123,
+      "timestamp": 4.1,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.5146443514644351,
+        "analysis": "Step 6/10 - add_two_three",
+        "step_index": 5,
+        "total_steps": 10,
+        "reduction_progress": 0.5555555555555556
+      }
+    },
+    {
+      "frame_number": 124,
+      "timestamp": 4.133333333333334,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.5188284518828452,
+        "analysis": "Step 6/10 - add_two_three",
+        "step_index": 5,
+        "total_steps": 10,
+        "reduction_progress": 0.5555555555555556
+      }
+    },
+    {
+      "frame_number": 125,
+      "timestamp": 4.166666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.5230125523012552,
+        "analysis": "Step 6/10 - add_two_three",
+        "step_index": 5,
+        "total_steps": 10,
+        "reduction_progress": 0.5555555555555556
+      }
+    },
+    {
+      "frame_number": 126,
+      "timestamp": 4.2,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.5271966527196653,
+        "analysis": "Step 6/10 - add_two_three",
+        "step_index": 5,
+        "total_steps": 10,
+        "reduction_progress": 0.5555555555555556
+      }
+    },
+    {
+      "frame_number": 127,
+      "timestamp": 4.233333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.5313807531380753,
+        "analysis": "Step 6/10 - add_two_three",
+        "step_index": 5,
+        "total_steps": 10,
+        "reduction_progress": 0.5555555555555556
+      }
+    },
+    {
+      "frame_number": 128,
+      "timestamp": 4.266666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.5355648535564853,
+        "analysis": "Step 6/10 - add_two_three",
+        "step_index": 5,
+        "total_steps": 10,
+        "reduction_progress": 0.5555555555555556
+      }
+    },
+    {
+      "frame_number": 129,
+      "timestamp": 4.3,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.5397489539748954,
+        "analysis": "Step 6/10 - add_two_three",
+        "step_index": 5,
+        "total_steps": 10,
+        "reduction_progress": 0.5555555555555556
+      }
+    },
+    {
+      "frame_number": 130,
+      "timestamp": 4.333333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.5439330543933054,
+        "analysis": "Step 6/10 - add_two_three",
+        "step_index": 5,
+        "total_steps": 10,
+        "reduction_progress": 0.5555555555555556
+      }
+    },
+    {
+      "frame_number": 131,
+      "timestamp": 4.366666666666666,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.5481171548117155,
+        "analysis": "Step 6/10 - add_two_three",
+        "step_index": 5,
+        "total_steps": 10,
+        "reduction_progress": 0.5555555555555556
+      }
+    },
+    {
+      "frame_number": 132,
+      "timestamp": 4.4,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.5523012552301255,
+        "analysis": "Step 6/10 - add_two_three",
+        "step_index": 5,
+        "total_steps": 10,
+        "reduction_progress": 0.5555555555555556
+      }
+    },
+    {
+      "frame_number": 133,
+      "timestamp": 4.433333333333334,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.5564853556485355,
+        "analysis": "Step 6/10 - add_two_three",
+        "step_index": 5,
+        "total_steps": 10,
+        "reduction_progress": 0.5555555555555556
+      }
+    },
+    {
+      "frame_number": 134,
+      "timestamp": 4.466666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.5606694560669456,
+        "analysis": "Step 6/10 - add_two_three",
+        "step_index": 5,
+        "total_steps": 10,
+        "reduction_progress": 0.5555555555555556
+      }
+    },
+    {
+      "frame_number": 135,
+      "timestamp": 4.5,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.5648535564853556,
+        "analysis": "Step 6/10 - add_two_three",
+        "step_index": 5,
+        "total_steps": 10,
+        "reduction_progress": 0.5555555555555556
+      }
+    },
+    {
+      "frame_number": 136,
+      "timestamp": 4.533333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.5690376569037657,
+        "analysis": "Step 6/10 - add_two_three",
+        "step_index": 5,
+        "total_steps": 10,
+        "reduction_progress": 0.5555555555555556
+      }
+    },
+    {
+      "frame_number": 137,
+      "timestamp": 4.566666666666666,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.5732217573221757,
+        "analysis": "Step 6/10 - add_two_three",
+        "step_index": 5,
+        "total_steps": 10,
+        "reduction_progress": 0.5555555555555556
+      }
+    },
+    {
+      "frame_number": 138,
+      "timestamp": 4.6,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.5774058577405857,
+        "analysis": "Step 6/10 - add_two_three",
+        "step_index": 5,
+        "total_steps": 10,
+        "reduction_progress": 0.5555555555555556
+      }
+    },
+    {
+      "frame_number": 139,
+      "timestamp": 4.633333333333334,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.5815899581589958,
+        "analysis": "Step 6/10 - add_two_three",
+        "step_index": 5,
+        "total_steps": 10,
+        "reduction_progress": 0.5555555555555556
+      }
+    },
+    {
+      "frame_number": 140,
+      "timestamp": 4.666666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.5857740585774058,
+        "analysis": "Step 6/10 - add_two_three",
+        "step_index": 5,
+        "total_steps": 10,
+        "reduction_progress": 0.5555555555555556
+      }
+    },
+    {
+      "frame_number": 141,
+      "timestamp": 4.7,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.5899581589958159,
+        "analysis": "Step 6/10 - add_two_three",
+        "step_index": 5,
+        "total_steps": 10,
+        "reduction_progress": 0.5555555555555556
+      }
+    },
+    {
+      "frame_number": 142,
+      "timestamp": 4.733333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.5941422594142259,
+        "analysis": "Step 6/10 - add_two_three",
+        "step_index": 5,
+        "total_steps": 10,
+        "reduction_progress": 0.5555555555555556
+      }
+    },
+    {
+      "frame_number": 143,
+      "timestamp": 4.766666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.5983263598326359,
+        "analysis": "Step 6/10 - add_two_three",
+        "step_index": 5,
+        "total_steps": 10,
+        "reduction_progress": 0.5555555555555556
+      }
+    },
+    {
+      "frame_number": 144,
+      "timestamp": 4.8,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.602510460251046,
+        "analysis": "Step 7/10 - add_two_three",
+        "step_index": 6,
+        "total_steps": 10,
+        "reduction_progress": 0.6666666666666666
+      }
+    },
+    {
+      "frame_number": 145,
+      "timestamp": 4.833333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.606694560669456,
+        "analysis": "Step 7/10 - add_two_three",
+        "step_index": 6,
+        "total_steps": 10,
+        "reduction_progress": 0.6666666666666666
+      }
+    },
+    {
+      "frame_number": 146,
+      "timestamp": 4.866666666666666,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.6108786610878661,
+        "analysis": "Step 7/10 - add_two_three",
+        "step_index": 6,
+        "total_steps": 10,
+        "reduction_progress": 0.6666666666666666
+      }
+    },
+    {
+      "frame_number": 147,
+      "timestamp": 4.9,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.6150627615062761,
+        "analysis": "Step 7/10 - add_two_three",
+        "step_index": 6,
+        "total_steps": 10,
+        "reduction_progress": 0.6666666666666666
+      }
+    },
+    {
+      "frame_number": 148,
+      "timestamp": 4.933333333333334,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.6192468619246861,
+        "analysis": "Step 7/10 - add_two_three",
+        "step_index": 6,
+        "total_steps": 10,
+        "reduction_progress": 0.6666666666666666
+      }
+    },
+    {
+      "frame_number": 149,
+      "timestamp": 4.966666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.6234309623430963,
+        "analysis": "Step 7/10 - add_two_three",
+        "step_index": 6,
+        "total_steps": 10,
+        "reduction_progress": 0.6666666666666666
+      }
+    },
+    {
+      "frame_number": 150,
+      "timestamp": 5.0,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.6276150627615062,
+        "analysis": "Step 7/10 - add_two_three",
+        "step_index": 6,
+        "total_steps": 10,
+        "reduction_progress": 0.6666666666666666
+      }
+    },
+    {
+      "frame_number": 151,
+      "timestamp": 5.033333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.6317991631799164,
+        "analysis": "Step 7/10 - add_two_three",
+        "step_index": 6,
+        "total_steps": 10,
+        "reduction_progress": 0.6666666666666666
+      }
+    },
+    {
+      "frame_number": 152,
+      "timestamp": 5.066666666666666,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.6359832635983264,
+        "analysis": "Step 7/10 - add_two_three",
+        "step_index": 6,
+        "total_steps": 10,
+        "reduction_progress": 0.6666666666666666
+      }
+    },
+    {
+      "frame_number": 153,
+      "timestamp": 5.1,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.6401673640167364,
+        "analysis": "Step 7/10 - add_two_three",
+        "step_index": 6,
+        "total_steps": 10,
+        "reduction_progress": 0.6666666666666666
+      }
+    },
+    {
+      "frame_number": 154,
+      "timestamp": 5.133333333333334,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.6443514644351465,
+        "analysis": "Step 7/10 - add_two_three",
+        "step_index": 6,
+        "total_steps": 10,
+        "reduction_progress": 0.6666666666666666
+      }
+    },
+    {
+      "frame_number": 155,
+      "timestamp": 5.166666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.6485355648535565,
+        "analysis": "Step 7/10 - add_two_three",
+        "step_index": 6,
+        "total_steps": 10,
+        "reduction_progress": 0.6666666666666666
+      }
+    },
+    {
+      "frame_number": 156,
+      "timestamp": 5.2,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.6527196652719666,
+        "analysis": "Step 7/10 - add_two_three",
+        "step_index": 6,
+        "total_steps": 10,
+        "reduction_progress": 0.6666666666666666
+      }
+    },
+    {
+      "frame_number": 157,
+      "timestamp": 5.233333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.6569037656903766,
+        "analysis": "Step 7/10 - add_two_three",
+        "step_index": 6,
+        "total_steps": 10,
+        "reduction_progress": 0.6666666666666666
+      }
+    },
+    {
+      "frame_number": 158,
+      "timestamp": 5.266666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.6610878661087866,
+        "analysis": "Step 7/10 - add_two_three",
+        "step_index": 6,
+        "total_steps": 10,
+        "reduction_progress": 0.6666666666666666
+      }
+    },
+    {
+      "frame_number": 159,
+      "timestamp": 5.3,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.6652719665271967,
+        "analysis": "Step 7/10 - add_two_three",
+        "step_index": 6,
+        "total_steps": 10,
+        "reduction_progress": 0.6666666666666666
+      }
+    },
+    {
+      "frame_number": 160,
+      "timestamp": 5.333333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.6694560669456067,
+        "analysis": "Step 7/10 - add_two_three",
+        "step_index": 6,
+        "total_steps": 10,
+        "reduction_progress": 0.6666666666666666
+      }
+    },
+    {
+      "frame_number": 161,
+      "timestamp": 5.366666666666666,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.6736401673640168,
+        "analysis": "Step 7/10 - add_two_three",
+        "step_index": 6,
+        "total_steps": 10,
+        "reduction_progress": 0.6666666666666666
+      }
+    },
+    {
+      "frame_number": 162,
+      "timestamp": 5.4,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.6778242677824268,
+        "analysis": "Step 7/10 - add_two_three",
+        "step_index": 6,
+        "total_steps": 10,
+        "reduction_progress": 0.6666666666666666
+      }
+    },
+    {
+      "frame_number": 163,
+      "timestamp": 5.433333333333334,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.6820083682008368,
+        "analysis": "Step 7/10 - add_two_three",
+        "step_index": 6,
+        "total_steps": 10,
+        "reduction_progress": 0.6666666666666666
+      }
+    },
+    {
+      "frame_number": 164,
+      "timestamp": 5.466666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.6861924686192469,
+        "analysis": "Step 7/10 - add_two_three",
+        "step_index": 6,
+        "total_steps": 10,
+        "reduction_progress": 0.6666666666666666
+      }
+    },
+    {
+      "frame_number": 165,
+      "timestamp": 5.5,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.6903765690376569,
+        "analysis": "Step 7/10 - add_two_three",
+        "step_index": 6,
+        "total_steps": 10,
+        "reduction_progress": 0.6666666666666666
+      }
+    },
+    {
+      "frame_number": 166,
+      "timestamp": 5.533333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.694560669456067,
+        "analysis": "Step 7/10 - add_two_three",
+        "step_index": 6,
+        "total_steps": 10,
+        "reduction_progress": 0.6666666666666666
+      }
+    },
+    {
+      "frame_number": 167,
+      "timestamp": 5.566666666666666,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.698744769874477,
+        "analysis": "Step 7/10 - add_two_three",
+        "step_index": 6,
+        "total_steps": 10,
+        "reduction_progress": 0.6666666666666666
+      }
+    },
+    {
+      "frame_number": 168,
+      "timestamp": 5.6,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.702928870292887,
+        "analysis": "Step 8/10 - add_two_three",
+        "step_index": 7,
+        "total_steps": 10,
+        "reduction_progress": 0.7777777777777778
+      }
+    },
+    {
+      "frame_number": 169,
+      "timestamp": 5.633333333333334,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.7071129707112971,
+        "analysis": "Step 8/10 - add_two_three",
+        "step_index": 7,
+        "total_steps": 10,
+        "reduction_progress": 0.7777777777777778
+      }
+    },
+    {
+      "frame_number": 170,
+      "timestamp": 5.666666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.7112970711297071,
+        "analysis": "Step 8/10 - add_two_three",
+        "step_index": 7,
+        "total_steps": 10,
+        "reduction_progress": 0.7777777777777778
+      }
+    },
+    {
+      "frame_number": 171,
+      "timestamp": 5.7,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.7154811715481172,
+        "analysis": "Step 8/10 - add_two_three",
+        "step_index": 7,
+        "total_steps": 10,
+        "reduction_progress": 0.7777777777777778
+      }
+    },
+    {
+      "frame_number": 172,
+      "timestamp": 5.733333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.7196652719665272,
+        "analysis": "Step 8/10 - add_two_three",
+        "step_index": 7,
+        "total_steps": 10,
+        "reduction_progress": 0.7777777777777778
+      }
+    },
+    {
+      "frame_number": 173,
+      "timestamp": 5.766666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.7238493723849372,
+        "analysis": "Step 8/10 - add_two_three",
+        "step_index": 7,
+        "total_steps": 10,
+        "reduction_progress": 0.7777777777777778
+      }
+    },
+    {
+      "frame_number": 174,
+      "timestamp": 5.8,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.7280334728033473,
+        "analysis": "Step 8/10 - add_two_three",
+        "step_index": 7,
+        "total_steps": 10,
+        "reduction_progress": 0.7777777777777778
+      }
+    },
+    {
+      "frame_number": 175,
+      "timestamp": 5.833333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.7322175732217573,
+        "analysis": "Step 8/10 - add_two_three",
+        "step_index": 7,
+        "total_steps": 10,
+        "reduction_progress": 0.7777777777777778
+      }
+    },
+    {
+      "frame_number": 176,
+      "timestamp": 5.866666666666666,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.7364016736401674,
+        "analysis": "Step 8/10 - add_two_three",
+        "step_index": 7,
+        "total_steps": 10,
+        "reduction_progress": 0.7777777777777778
+      }
+    },
+    {
+      "frame_number": 177,
+      "timestamp": 5.9,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.7405857740585774,
+        "analysis": "Step 8/10 - add_two_three",
+        "step_index": 7,
+        "total_steps": 10,
+        "reduction_progress": 0.7777777777777778
+      }
+    },
+    {
+      "frame_number": 178,
+      "timestamp": 5.933333333333334,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.7447698744769874,
+        "analysis": "Step 8/10 - add_two_three",
+        "step_index": 7,
+        "total_steps": 10,
+        "reduction_progress": 0.7777777777777778
+      }
+    },
+    {
+      "frame_number": 179,
+      "timestamp": 5.966666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.7489539748953975,
+        "analysis": "Step 8/10 - add_two_three",
+        "step_index": 7,
+        "total_steps": 10,
+        "reduction_progress": 0.7777777777777778
+      }
+    },
+    {
+      "frame_number": 180,
+      "timestamp": 6.0,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.7531380753138075,
+        "analysis": "Step 8/10 - add_two_three",
+        "step_index": 7,
+        "total_steps": 10,
+        "reduction_progress": 0.7777777777777778
+      }
+    },
+    {
+      "frame_number": 181,
+      "timestamp": 6.033333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.7573221757322176,
+        "analysis": "Step 8/10 - add_two_three",
+        "step_index": 7,
+        "total_steps": 10,
+        "reduction_progress": 0.7777777777777778
+      }
+    },
+    {
+      "frame_number": 182,
+      "timestamp": 6.066666666666666,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.7615062761506276,
+        "analysis": "Step 8/10 - add_two_three",
+        "step_index": 7,
+        "total_steps": 10,
+        "reduction_progress": 0.7777777777777778
+      }
+    },
+    {
+      "frame_number": 183,
+      "timestamp": 6.1,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.7656903765690377,
+        "analysis": "Step 8/10 - add_two_three",
+        "step_index": 7,
+        "total_steps": 10,
+        "reduction_progress": 0.7777777777777778
+      }
+    },
+    {
+      "frame_number": 184,
+      "timestamp": 6.133333333333334,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.7698744769874477,
+        "analysis": "Step 8/10 - add_two_three",
+        "step_index": 7,
+        "total_steps": 10,
+        "reduction_progress": 0.7777777777777778
+      }
+    },
+    {
+      "frame_number": 185,
+      "timestamp": 6.166666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.7740585774058577,
+        "analysis": "Step 8/10 - add_two_three",
+        "step_index": 7,
+        "total_steps": 10,
+        "reduction_progress": 0.7777777777777778
+      }
+    },
+    {
+      "frame_number": 186,
+      "timestamp": 6.2,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.7782426778242678,
+        "analysis": "Step 8/10 - add_two_three",
+        "step_index": 7,
+        "total_steps": 10,
+        "reduction_progress": 0.7777777777777778
+      }
+    },
+    {
+      "frame_number": 187,
+      "timestamp": 6.233333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.7824267782426778,
+        "analysis": "Step 8/10 - add_two_three",
+        "step_index": 7,
+        "total_steps": 10,
+        "reduction_progress": 0.7777777777777778
+      }
+    },
+    {
+      "frame_number": 188,
+      "timestamp": 6.266666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.7866108786610879,
+        "analysis": "Step 8/10 - add_two_three",
+        "step_index": 7,
+        "total_steps": 10,
+        "reduction_progress": 0.7777777777777778
+      }
+    },
+    {
+      "frame_number": 189,
+      "timestamp": 6.3,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.7907949790794979,
+        "analysis": "Step 8/10 - add_two_three",
+        "step_index": 7,
+        "total_steps": 10,
+        "reduction_progress": 0.7777777777777778
+      }
+    },
+    {
+      "frame_number": 190,
+      "timestamp": 6.333333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.7949790794979079,
+        "analysis": "Step 8/10 - add_two_three",
+        "step_index": 7,
+        "total_steps": 10,
+        "reduction_progress": 0.7777777777777778
+      }
+    },
+    {
+      "frame_number": 191,
+      "timestamp": 6.366666666666666,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.799163179916318,
+        "analysis": "Step 8/10 - add_two_three",
+        "step_index": 7,
+        "total_steps": 10,
+        "reduction_progress": 0.7777777777777778
+      }
+    },
+    {
+      "frame_number": 192,
+      "timestamp": 6.4,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.803347280334728,
+        "analysis": "Step 9/10 - add_two_three",
+        "step_index": 8,
+        "total_steps": 10,
+        "reduction_progress": 0.8888888888888888
+      }
+    },
+    {
+      "frame_number": 193,
+      "timestamp": 6.433333333333334,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.8075313807531381,
+        "analysis": "Step 9/10 - add_two_three",
+        "step_index": 8,
+        "total_steps": 10,
+        "reduction_progress": 0.8888888888888888
+      }
+    },
+    {
+      "frame_number": 194,
+      "timestamp": 6.466666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.8117154811715481,
+        "analysis": "Step 9/10 - add_two_three",
+        "step_index": 8,
+        "total_steps": 10,
+        "reduction_progress": 0.8888888888888888
+      }
+    },
+    {
+      "frame_number": 195,
+      "timestamp": 6.5,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.8158995815899581,
+        "analysis": "Step 9/10 - add_two_three",
+        "step_index": 8,
+        "total_steps": 10,
+        "reduction_progress": 0.8888888888888888
+      }
+    },
+    {
+      "frame_number": 196,
+      "timestamp": 6.533333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.8200836820083682,
+        "analysis": "Step 9/10 - add_two_three",
+        "step_index": 8,
+        "total_steps": 10,
+        "reduction_progress": 0.8888888888888888
+      }
+    },
+    {
+      "frame_number": 197,
+      "timestamp": 6.566666666666666,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.8242677824267782,
+        "analysis": "Step 9/10 - add_two_three",
+        "step_index": 8,
+        "total_steps": 10,
+        "reduction_progress": 0.8888888888888888
+      }
+    },
+    {
+      "frame_number": 198,
+      "timestamp": 6.6,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.8284518828451883,
+        "analysis": "Step 9/10 - add_two_three",
+        "step_index": 8,
+        "total_steps": 10,
+        "reduction_progress": 0.8888888888888888
+      }
+    },
+    {
+      "frame_number": 199,
+      "timestamp": 6.633333333333334,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.8326359832635983,
+        "analysis": "Step 9/10 - add_two_three",
+        "step_index": 8,
+        "total_steps": 10,
+        "reduction_progress": 0.8888888888888888
+      }
+    },
+    {
+      "frame_number": 200,
+      "timestamp": 6.666666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.8368200836820083,
+        "analysis": "Step 9/10 - add_two_three",
+        "step_index": 8,
+        "total_steps": 10,
+        "reduction_progress": 0.8888888888888888
+      }
+    },
+    {
+      "frame_number": 201,
+      "timestamp": 6.7,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.8410041841004184,
+        "analysis": "Step 9/10 - add_two_three",
+        "step_index": 8,
+        "total_steps": 10,
+        "reduction_progress": 0.8888888888888888
+      }
+    },
+    {
+      "frame_number": 202,
+      "timestamp": 6.733333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.8451882845188284,
+        "analysis": "Step 9/10 - add_two_three",
+        "step_index": 8,
+        "total_steps": 10,
+        "reduction_progress": 0.8888888888888888
+      }
+    },
+    {
+      "frame_number": 203,
+      "timestamp": 6.766666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.8493723849372385,
+        "analysis": "Step 9/10 - add_two_three",
+        "step_index": 8,
+        "total_steps": 10,
+        "reduction_progress": 0.8888888888888888
+      }
+    },
+    {
+      "frame_number": 204,
+      "timestamp": 6.8,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.8535564853556485,
+        "analysis": "Step 9/10 - add_two_three",
+        "step_index": 8,
+        "total_steps": 10,
+        "reduction_progress": 0.8888888888888888
+      }
+    },
+    {
+      "frame_number": 205,
+      "timestamp": 6.833333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.8577405857740585,
+        "analysis": "Step 9/10 - add_two_three",
+        "step_index": 8,
+        "total_steps": 10,
+        "reduction_progress": 0.8888888888888888
+      }
+    },
+    {
+      "frame_number": 206,
+      "timestamp": 6.866666666666666,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.8619246861924686,
+        "analysis": "Step 9/10 - add_two_three",
+        "step_index": 8,
+        "total_steps": 10,
+        "reduction_progress": 0.8888888888888888
+      }
+    },
+    {
+      "frame_number": 207,
+      "timestamp": 6.9,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.8661087866108786,
+        "analysis": "Step 9/10 - add_two_three",
+        "step_index": 8,
+        "total_steps": 10,
+        "reduction_progress": 0.8888888888888888
+      }
+    },
+    {
+      "frame_number": 208,
+      "timestamp": 6.933333333333334,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.8702928870292888,
+        "analysis": "Step 9/10 - add_two_three",
+        "step_index": 8,
+        "total_steps": 10,
+        "reduction_progress": 0.8888888888888888
+      }
+    },
+    {
+      "frame_number": 209,
+      "timestamp": 6.966666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.8744769874476988,
+        "analysis": "Step 9/10 - add_two_three",
+        "step_index": 8,
+        "total_steps": 10,
+        "reduction_progress": 0.8888888888888888
+      }
+    },
+    {
+      "frame_number": 210,
+      "timestamp": 7.0,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.8786610878661087,
+        "analysis": "Step 9/10 - add_two_three",
+        "step_index": 8,
+        "total_steps": 10,
+        "reduction_progress": 0.8888888888888888
+      }
+    },
+    {
+      "frame_number": 211,
+      "timestamp": 7.033333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.8828451882845189,
+        "analysis": "Step 9/10 - add_two_three",
+        "step_index": 8,
+        "total_steps": 10,
+        "reduction_progress": 0.8888888888888888
+      }
+    },
+    {
+      "frame_number": 212,
+      "timestamp": 7.066666666666666,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.8870292887029289,
+        "analysis": "Step 9/10 - add_two_three",
+        "step_index": 8,
+        "total_steps": 10,
+        "reduction_progress": 0.8888888888888888
+      }
+    },
+    {
+      "frame_number": 213,
+      "timestamp": 7.1,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.891213389121339,
+        "analysis": "Step 9/10 - add_two_three",
+        "step_index": 8,
+        "total_steps": 10,
+        "reduction_progress": 0.8888888888888888
+      }
+    },
+    {
+      "frame_number": 214,
+      "timestamp": 7.133333333333334,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.895397489539749,
+        "analysis": "Step 9/10 - add_two_three",
+        "step_index": 8,
+        "total_steps": 10,
+        "reduction_progress": 0.8888888888888888
+      }
+    },
+    {
+      "frame_number": 215,
+      "timestamp": 7.166666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.899581589958159,
+        "analysis": "Step 9/10 - add_two_three",
+        "step_index": 8,
+        "total_steps": 10,
+        "reduction_progress": 0.8888888888888888
+      }
+    },
+    {
+      "frame_number": 216,
+      "timestamp": 7.2,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.9037656903765691,
+        "analysis": "Step 10/10 - add_two_three",
+        "step_index": 9,
+        "total_steps": 10,
+        "reduction_progress": 1.0
+      }
+    },
+    {
+      "frame_number": 217,
+      "timestamp": 7.233333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.9079497907949791,
+        "analysis": "Step 10/10 - add_two_three",
+        "step_index": 9,
+        "total_steps": 10,
+        "reduction_progress": 1.0
+      }
+    },
+    {
+      "frame_number": 218,
+      "timestamp": 7.266666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.9121338912133892,
+        "analysis": "Step 10/10 - add_two_three",
+        "step_index": 9,
+        "total_steps": 10,
+        "reduction_progress": 1.0
+      }
+    },
+    {
+      "frame_number": 219,
+      "timestamp": 7.3,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.9163179916317992,
+        "analysis": "Step 10/10 - add_two_three",
+        "step_index": 9,
+        "total_steps": 10,
+        "reduction_progress": 1.0
+      }
+    },
+    {
+      "frame_number": 220,
+      "timestamp": 7.333333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.9205020920502092,
+        "analysis": "Step 10/10 - add_two_three",
+        "step_index": 9,
+        "total_steps": 10,
+        "reduction_progress": 1.0
+      }
+    },
+    {
+      "frame_number": 221,
+      "timestamp": 7.366666666666666,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.9246861924686193,
+        "analysis": "Step 10/10 - add_two_three",
+        "step_index": 9,
+        "total_steps": 10,
+        "reduction_progress": 1.0
+      }
+    },
+    {
+      "frame_number": 222,
+      "timestamp": 7.4,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.9288702928870293,
+        "analysis": "Step 10/10 - add_two_three",
+        "step_index": 9,
+        "total_steps": 10,
+        "reduction_progress": 1.0
+      }
+    },
+    {
+      "frame_number": 223,
+      "timestamp": 7.433333333333334,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.9330543933054394,
+        "analysis": "Step 10/10 - add_two_three",
+        "step_index": 9,
+        "total_steps": 10,
+        "reduction_progress": 1.0
+      }
+    },
+    {
+      "frame_number": 224,
+      "timestamp": 7.466666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.9372384937238494,
+        "analysis": "Step 10/10 - add_two_three",
+        "step_index": 9,
+        "total_steps": 10,
+        "reduction_progress": 1.0
+      }
+    },
+    {
+      "frame_number": 225,
+      "timestamp": 7.5,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.9414225941422594,
+        "analysis": "Step 10/10 - add_two_three",
+        "step_index": 9,
+        "total_steps": 10,
+        "reduction_progress": 1.0
+      }
+    },
+    {
+      "frame_number": 226,
+      "timestamp": 7.533333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.9456066945606695,
+        "analysis": "Step 10/10 - add_two_three",
+        "step_index": 9,
+        "total_steps": 10,
+        "reduction_progress": 1.0
+      }
+    },
+    {
+      "frame_number": 227,
+      "timestamp": 7.566666666666666,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.9497907949790795,
+        "analysis": "Step 10/10 - add_two_three",
+        "step_index": 9,
+        "total_steps": 10,
+        "reduction_progress": 1.0
+      }
+    },
+    {
+      "frame_number": 228,
+      "timestamp": 7.6,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.9539748953974896,
+        "analysis": "Step 10/10 - add_two_three",
+        "step_index": 9,
+        "total_steps": 10,
+        "reduction_progress": 1.0
+      }
+    },
+    {
+      "frame_number": 229,
+      "timestamp": 7.633333333333334,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.9581589958158996,
+        "analysis": "Step 10/10 - add_two_three",
+        "step_index": 9,
+        "total_steps": 10,
+        "reduction_progress": 1.0
+      }
+    },
+    {
+      "frame_number": 230,
+      "timestamp": 7.666666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.9623430962343096,
+        "analysis": "Step 10/10 - add_two_three",
+        "step_index": 9,
+        "total_steps": 10,
+        "reduction_progress": 1.0
+      }
+    },
+    {
+      "frame_number": 231,
+      "timestamp": 7.7,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.9665271966527197,
+        "analysis": "Step 10/10 - add_two_three",
+        "step_index": 9,
+        "total_steps": 10,
+        "reduction_progress": 1.0
+      }
+    },
+    {
+      "frame_number": 232,
+      "timestamp": 7.733333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.9707112970711297,
+        "analysis": "Step 10/10 - add_two_three",
+        "step_index": 9,
+        "total_steps": 10,
+        "reduction_progress": 1.0
+      }
+    },
+    {
+      "frame_number": 233,
+      "timestamp": 7.766666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.9748953974895398,
+        "analysis": "Step 10/10 - add_two_three",
+        "step_index": 9,
+        "total_steps": 10,
+        "reduction_progress": 1.0
+      }
+    },
+    {
+      "frame_number": 234,
+      "timestamp": 7.8,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.9790794979079498,
+        "analysis": "Step 10/10 - add_two_three",
+        "step_index": 9,
+        "total_steps": 10,
+        "reduction_progress": 1.0
+      }
+    },
+    {
+      "frame_number": 235,
+      "timestamp": 7.833333333333333,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.9832635983263598,
+        "analysis": "Step 10/10 - add_two_three",
+        "step_index": 9,
+        "total_steps": 10,
+        "reduction_progress": 1.0
+      }
+    },
+    {
+      "frame_number": 236,
+      "timestamp": 7.866666666666666,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.9874476987447699,
+        "analysis": "Step 10/10 - add_two_three",
+        "step_index": 9,
+        "total_steps": 10,
+        "reduction_progress": 1.0
+      }
+    },
+    {
+      "frame_number": 237,
+      "timestamp": 7.9,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.9916317991631799,
+        "analysis": "Step 10/10 - add_two_three",
+        "step_index": 9,
+        "total_steps": 10,
+        "reduction_progress": 1.0
+      }
+    },
+    {
+      "frame_number": 238,
+      "timestamp": 7.933333333333334,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 0.99581589958159,
+        "analysis": "Step 10/10 - add_two_three",
+        "step_index": 9,
+        "total_steps": 10,
+        "reduction_progress": 1.0
+      }
+    },
+    {
+      "frame_number": 239,
+      "timestamp": 7.966666666666667,
+      "content": {
+        "expression": "(λm.λn.λf.λx.mf nfx (λf.λx.f fx)) (λf.λx.f (f fx))",
+        "progress": 1.0,
+        "analysis": "Step 10/10 - add_two_three",
+        "step_index": 9,
+        "total_steps": 10,
+        "reduction_progress": 1.0
+      }
+    }
+  ],
+  "metadata": {
+    "total_frames": 240,
+    "duration": 8.0,
+    "fps": 30,
+    "expression_name": "add_two_three",
+    "original_expression": "(\\m.\\n.\\f.\\x.m f (n f x)) (\\f.\\x.f(f x)) (\\f.\\x.f(f(f x)))",
+    "total_reduction_steps": 10,
+    "created_at": "2025-09-30T12:39:05.023822",
+    "animation_id": "16217a2a-1c01-42a1-bbfa-3af52b3ef4f0"
+  }
+}

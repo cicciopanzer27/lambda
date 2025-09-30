@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Complex Lambda Calculus Viewer</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+        }
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(45deg, #2196F3, #21CBF3);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        .controls {
+            padding: 20px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #dee2e6;
+        }
+        .expressions-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .expression-card {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            border: 2px solid #e0e0e0;
+            transition: all 0.3s ease;
+        }
+        .expression-card:hover {
+            border-color: #2196F3;
+            box-shadow: 0 5px 15px rgba(33, 150, 243, 0.3);
+        }
+        .expression-card.selected {
+            border-color: #4CAF50;
+            background: #e8f5e8;
+        }
+        .expression-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #2196F3;
+            margin-bottom: 10px;
+        }
+        .expression-text {
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            background: #e3f2fd;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+            border-left: 4px solid #2196F3;
+            word-break: break-all;
+        }
+        .expression-stats {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            margin: 10px 0;
+        }
+        .stat-item {
+            background: white;
+            padding: 8px;
+            border-radius: 5px;
+            text-align: center;
+            border: 1px solid #e0e0e0;
+        }
+        .stat-value {
+            font-size: 16px;
+            font-weight: bold;
+            color: #2196F3;
+        }
+        .stat-label {
+            font-size: 12px;
+            color: #666;
+        }
+        .viewer-panel {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px;
+        }
+        .lambda-expression {
+            font-family: 'Courier New', monospace;
+            font-size: 20px;
+            background: #e3f2fd;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 5px solid #2196F3;
+            word-break: break-all;
+        }
+        .progress-container {
+            margin: 20px 0;
+        }
+        .progress-bar {
+            width: 100%;
+            height: 30px;
+            background: #e0e0e0;
+            border-radius: 15px;
+            overflow: hidden;
+            position: relative;
+        }
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #4CAF50, #8BC34A);
+            transition: width 0.3s ease;
+            border-radius: 15px;
+        }
+        .progress-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-weight: bold;
+            color: white;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        }
+        .frame-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .info-card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #2196F3;
+            text-align: center;
+        }
+        .info-card h3 {
+            margin: 0 0 10px 0;
+            color: #2196F3;
+            font-size: 14px;
+        }
+        .info-card p {
+            margin: 0;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .controls input[type="range"] {
+            width: 100%;
+            margin: 10px 0;
+        }
+        .btn {
+            background: #2196F3;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+            font-size: 14px;
+        }
+        .btn:hover {
+            background: #1976D2;
+        }
+        .btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+        .btn.secondary {
+            background: #6c757d;
+        }
+        .btn.secondary:hover {
+            background: #5a6268;
+        }
+        .complexity-meter {
+            margin: 20px 0;
+        }
+        .complexity-bar {
+            width: 100%;
+            height: 20px;
+            background: #e0e0e0;
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+        }
+        .complexity-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #4CAF50, #FF9800, #F44336);
+            transition: width 0.3s ease;
+            border-radius: 10px;
+        }
+        .complexity-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-weight: bold;
+            color: white;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        }
+        .tree-visualization {
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            line-height: 1.6;
+            text-align: left;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            border: 2px solid #e0e0e0;
+            margin: 20px 0;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .stat-card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #e0e0e0;
+            text-align: center;
+        }
+        .stat-value {
+            font-size: 20px;
+            font-weight: bold;
+            color: #2196F3;
+        }
+        .stat-label {
+            font-size: 12px;
+            color: #666;
+            margin-top: 5px;
+        }
+        .file-input {
+            margin: 20px 0;
+            padding: 20px;
+            border: 2px dashed #ccc;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .file-input.dragover {
+            border-color: #2196F3;
+            background-color: #e3f2fd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Master Complex Lambda Calculus Viewer</h1>
+            <p>Interactive visualization of complex lambda expressions and their animations</p>
+        </div>
+        
+        <div class="file-input" id="fileInput">
+            <h3>📁 Load Complex Animation Data</h3>
+            <p>Drag and drop your complex JSON file here or click to select</p>
+            <input type="file" id="fileSelect" accept=".json" style="display: none;">
+            <button class="btn" onclick="document.getElementById('fileSelect').click()">Choose File</button>
+        </div>
+        
+        <div id="viewer" style="display: none;">
+            <div class="controls">
+                <h3>Master Controls</h3>
+                <input type="range" id="frameSlider" min="0" max="0" value="0" step="1">
+                <div>
+                    <button class="btn" id="playBtn">▶️ Play</button>
+                    <button class="btn" id="pauseBtn" disabled>⏸️ Pause</button>
+                    <button class="btn" id="resetBtn">🔄 Reset</button>
+                    <button class="btn" id="exportBtn">💾 Export Frame</button>
+                    <button class="btn secondary" id="analyzeBtn">🔍 Analyze</button>
+                    <button class="btn secondary" id="compareBtn">⚖️ Compare</button>
+                </div>
+            </div>
+            
+            <div class="viewer-panel">
+                <div class="lambda-expression" id="expressionDisplay">
+                    No data loaded
+                </div>
+                
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+                        <div class="progress-text" id="progressText">0%</div>
+                    </div>
+                </div>
+                
+                <div class="complexity-meter">
+                    <h4>Complexity Meter</h4>
+                    <div class="complexity-bar">
+                        <div class="complexity-fill" id="complexityFill" style="width: 0%"></div>
+                        <div class="complexity-text" id="complexityText">0</div>
+                    </div>
+                </div>
+                
+                <div class="frame-info">
+                    <div class="info-card">
+                        <h3>Frame Number</h3>
+                        <p id="frameNumber">0</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>Timestamp</h3>
+                        <p id="timestamp">0.000s</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>Progress</h3>
+                        <p id="progress">0.000</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>Step</h3>
+                        <p id="stepInfo">1/1</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>Complexity</h3>
+                        <p id="complexityValue">0</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>Depth</h3>
+                        <p id="depthValue">0</p>
+                    </div>
+                </div>
+                
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-value" id="abstractionsValue">0</div>
+                        <div class="stat-label">Abstractions</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="applicationsValue">0</div>
+                        <div class="stat-label">Applications</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="variablesValue">0</div>
+                        <div class="stat-label">Variables</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="lengthValue">0</div>
+                        <div class="stat-label">Length</div>
+                    </div>
+                </div>
+                
+                <div class="tree-visualization" id="treeVisualization">
+                    <pre>
+Loading tree visualization...
+                    </pre>
+                </div>
+            </div>
+        </div>
+        
+        <div class="expressions-grid" id="expressionsGrid">
+            <!-- Pre-loaded complex expressions will be displayed here -->
+        </div>
+    </div>
+
+    <script>
+        let frames = [];
+        let currentFrame = 0;
+        let isPlaying = false;
+        let animationId = null;
+        let currentExpression = null;
+        
+        // Pre-defined complex expressions
+        const complexExpressions = [
+            {
+                name: "Y-Combinator",
+                expression: "\\f.(\\x.f(x x))(\\x.f(x x))",
+                description: "Fixed-point combinator for recursion",
+                complexity: 20,
+                type: "combinator"
+            },
+            {
+                name: "Church Addition",
+                expression: "(\\m.\\n.\\f.\\x.m f (n f x)) (\\f.\\x.f(f x)) (\\f.\\x.f(f(f x)))",
+                description: "Addition of Church numerals 2 + 3",
+                complexity: 50,
+                type: "arithmetic"
+            },
+            {
+                name: "Church Multiplication",
+                expression: "(\\m.\\n.\\f.m(n f)) (\\f.\\x.f(f x)) (\\f.\\x.f(f(f x)))",
+                description: "Multiplication of Church numerals 2 * 3",
+                complexity: 45,
+                type: "arithmetic"
+            },
+            {
+                name: "Church Power",
+                expression: "(\\m.\\n.n m) (\\f.\\x.f(f x)) (\\f.\\x.f(f(f x)))",
+                description: "Power operation 2^3 using Church numerals",
+                complexity: 40,
+                type: "arithmetic"
+            },
+            {
+                name: "Very Complex",
+                expression: "((\\f.\\g.\\h.\\x.f(g(h x))) (\\x.x)) ((\\y.\\z.y z) (\\a.\\b.a)) ((\\c.\\d.c d) (\\e.\\f.e)) g",
+                description: "Highly nested function composition",
+                complexity: 77,
+                type: "composition"
+            },
+            {
+                name: "Map Successor",
+                expression: "((\\f.\\l.\\g.l (\\x.\\y.g (f x) (map_successor_simple f y)) (\\x.\\y.y)) (\\n.\\f.\\x.f(n f x))) (cons (\\f.\\x.f x) (cons (\\f.\\x.f(f x)) (cons (\\f.\\x.f(f(f x))) (\\x.\\y.y))))",
+                description: "Map successor function over a list",
+                complexity: 157,
+                type: "list_operation"
+            }
+        ];
+        
+        // DOM elements
+        const fileInput = document.getElementById('fileInput');
+        const fileSelect = document.getElementById('fileSelect');
+        const viewer = document.getElementById('viewer');
+        const expressionsGrid = document.getElementById('expressionsGrid');
+        const frameSlider = document.getElementById('frameSlider');
+        const expressionDisplay = document.getElementById('expressionDisplay');
+        const progressFill = document.getElementById('progressFill');
+        const progressText = document.getElementById('progressText');
+        const frameNumber = document.getElementById('frameNumber');
+        const timestamp = document.getElementById('timestamp');
+        const progress = document.getElementById('progress');
+        const stepInfo = document.getElementById('stepInfo');
+        const complexityFill = document.getElementById('complexityFill');
+        const complexityText = document.getElementById('complexityText');
+        const complexityValue = document.getElementById('complexityValue');
+        const depthValue = document.getElementById('depthValue');
+        const abstractionsValue = document.getElementById('abstractionsValue');
+        const applicationsValue = document.getElementById('applicationsValue');
+        const variablesValue = document.getElementById('variablesValue');
+        const lengthValue = document.getElementById('lengthValue');
+        const treeVisualization = document.getElementById('treeVisualization');
+        
+        const playBtn = document.getElementById('playBtn');
+        const pauseBtn = document.getElementById('pauseBtn');
+        const resetBtn = document.getElementById('resetBtn');
+        const exportBtn = document.getElementById('exportBtn');
+        const analyzeBtn = document.getElementById('analyzeBtn');
+        const compareBtn = document.getElementById('compareBtn');
+        
+        // Initialize pre-defined expressions
+        function initializeExpressions() {
+            complexExpressions.forEach((expr, index) => {
+                const card = document.createElement('div');
+                card.className = 'expression-card';
+                card.onclick = () => selectExpression(expr, index);
+                
+                card.innerHTML = `
+                    <div class="expression-title">${expr.name}</div>
+                    <div class="expression-text">${expr.expression}</div>
+                    <div class="expression-stats">
+                        <div class="stat-item">
+                            <div class="stat-value">${expr.complexity}</div>
+                            <div class="stat-label">Complexity</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">${expr.type}</div>
+                            <div class="stat-label">Type</div>
+                        </div>
+                    </div>
+                    <p style="margin: 10px 0; font-size: 12px; color: #666;">${expr.description}</p>
+                `;
+                
+                expressionsGrid.appendChild(card);
+            });
+        }
+        
+        function selectExpression(expr, index) {
+            // Remove previous selection
+            document.querySelectorAll('.expression-card').forEach(card => {
+                card.classList.remove('selected');
+            });
+            
+            // Select current
+            document.querySelectorAll('.expression-card')[index].classList.add('selected');
+            
+            // Create mock frames for demonstration
+            createMockFrames(expr);
+            currentExpression = expr;
+        }
+        
+        function createMockFrames(expr) {
+            const totalFrames = 240;
+            frames = [];
+            
+            for (let i = 0; i < totalFrames; i++) {
+                const progress = i / (totalFrames - 1);
+                frames.push({
+                    frame_number: i,
+                    timestamp: i / 30.0,
+                    content: {
+                        expression: expr.expression,
+                        progress: progress,
+                        analysis: `Step ${Math.floor(progress * 10) + 1}/10 - ${expr.name}`,
+                        step_index: Math.floor(progress * 10),
+                        total_steps: 10,
+                        reduction_progress: progress
+                    }
+                });
+            }
+            
+            // Initialize viewer
+            frameSlider.max = frames.length - 1;
+            frameSlider.value = 0;
+            updateDisplay(0);
+            viewer.style.display = 'block';
+        }
+        
+        // File handling
+        fileInput.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            fileInput.classList.add('dragover');
+        });
+        
+        fileInput.addEventListener('dragleave', () => {
+            fileInput.classList.remove('dragover');
+        });
+        
+        fileInput.addEventListener('drop', (e) => {
+            e.preventDefault();
+            fileInput.classList.remove('dragover');
+            const files = e.dataTransfer.files;
+            if (files.length > 0) {
+                loadFile(files[0]);
+            }
+        });
+        
+        fileSelect.addEventListener('change', (e) => {
+            if (e.target.files.length > 0) {
+                loadFile(e.target.files[0]);
+            }
+        });
+        
+        function loadFile(file) {
+            if (!file.name.endsWith('.json')) {
+                alert('Please select a JSON file');
+                return;
+            }
+            
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                try {
+                    const data = JSON.parse(e.target.result);
+                    if (data.frames && Array.isArray(data.frames)) {
+                        frames = data.frames;
+                        currentExpression = {
+                            name: data.metadata?.expression_name || 'Loaded Expression',
+                            expression: data.frames[0]?.content?.expression || '',
+                            complexity: data.frames[0]?.content?.expression?.length || 0
+                        };
+                        initializeViewer();
+                        fileInput.style.display = 'none';
+                        viewer.style.display = 'block';
+                    } else {
+                        alert('Invalid JSON format. Expected a "frames" array.');
+                    }
+                } catch (error) {
+                    alert('Error parsing JSON file: ' + error.message);
+                }
+            };
+            reader.readAsText(file);
+        }
+        
+        function initializeViewer() {
+            frameSlider.max = frames.length - 1;
+            updateDisplay(0);
+            
+            // Event listeners
+            frameSlider.addEventListener('input', (e) => {
+                pause();
+                updateDisplay(parseInt(e.target.value));
+            });
+            
+            playBtn.addEventListener('click', play);
+            pauseBtn.addEventListener('click', pause);
+            resetBtn.addEventListener('click', reset);
+            exportBtn.addEventListener('click', exportFrame);
+            analyzeBtn.addEventListener('click', analyze);
+            compareBtn.addEventListener('click', compare);
+        }
+        
+        function analyzeExpression(expression) {
+            const abstractions = (expression.match(/\\/g) || []).length;
+            const applications = (expression.match(/\(/g) || []).length;
+            const variables = new Set(expression.match(/\\[a-zA-Z]+/g) || []).size;
+            const complexity = expression.length;
+            
+            // Calculate nesting depth
+            let depth = 0;
+            let maxDepth = 0;
+            for (let char of expression) {
+                if (char === '(') {
+                    depth++;
+                    maxDepth = Math.max(maxDepth, depth);
+                } else if (char === ')') {
+                    depth--;
+                }
+            }
+            
+            return {
+                complexity,
+                depth: maxDepth,
+                abstractions,
+                applications,
+                variables,
+                length: expression.length
+            };
+        }
+        
+        function updateDisplay(frameIndex) {
+            const frame = frames[frameIndex];
+            currentFrame = frameIndex;
+            
+            expressionDisplay.textContent = frame.content.expression;
+            progressFill.style.width = (frame.content.progress * 100) + '%';
+            progressText.textContent = (frame.content.progress * 100).toFixed(1) + '%';
+            frameNumber.textContent = frame.frame_number;
+            timestamp.textContent = frame.timestamp.toFixed(3) + 's';
+            progress.textContent = frame.content.progress.toFixed(3);
+            stepInfo.textContent = `${frame.content.step_index + 1}/${frame.content.total_steps}`;
+            
+            // Analyze expression
+            const analysis = analyzeExpression(frame.content.expression);
+            
+            // Update complexity meter
+            const complexityRatio = Math.min(analysis.complexity / 200, 1);
+            complexityFill.style.width = (complexityRatio * 100) + '%';
+            complexityText.textContent = analysis.complexity;
+            
+            // Update stats
+            complexityValue.textContent = analysis.complexity;
+            depthValue.textContent = analysis.depth;
+            abstractionsValue.textContent = analysis.abstractions;
+            applicationsValue.textContent = analysis.applications;
+            variablesValue.textContent = analysis.variables;
+            lengthValue.textContent = analysis.length;
+            
+            // Update tree visualization
+            const treeHtml = `
+                <pre>
+Expression Tree Analysis:
+=======================
+
+Complexity: ${analysis.complexity}
+Nesting Depth: ${analysis.depth}
+Abstractions: ${analysis.abstractions}
+Applications: ${analysis.applications}
+Variables: ${analysis.variables}
+Length: ${analysis.length}
+
+Expression Structure:
+${frame.content.expression}
+
+Progress: ${(frame.content.progress * 100).toFixed(1)}%
+Frame: ${frame.frame_number}/${frames.length - 1}
+Step: ${frame.content.step_index + 1}/${frame.content.total_steps}
+                </pre>
+            `;
+            treeVisualization.innerHTML = treeHtml;
+        }
+        
+        function play() {
+            isPlaying = true;
+            playBtn.disabled = true;
+            pauseBtn.disabled = false;
+            
+            function animate() {
+                if (isPlaying) {
+                    currentFrame = (currentFrame + 1) % frames.length;
+                    frameSlider.value = currentFrame;
+                    updateDisplay(currentFrame);
+                    animationId = setTimeout(animate, 50); // ~20 FPS
+                }
+            }
+            animate();
+        }
+        
+        function pause() {
+            isPlaying = false;
+            playBtn.disabled = false;
+            pauseBtn.disabled = true;
+            if (animationId) {
+                clearTimeout(animationId);
+            }
+        }
+        
+        function reset() {
+            pause();
+            currentFrame = 0;
+            frameSlider.value = 0;
+            updateDisplay(0);
+        }
+        
+        function exportFrame() {
+            const frame = frames[currentFrame];
+            const data = {
+                frame_number: frame.frame_number,
+                timestamp: frame.timestamp,
+                expression: frame.content.expression,
+                progress: frame.content.progress,
+                analysis: frame.content.analysis,
+                step_index: frame.content.step_index,
+                total_steps: frame.content.total_steps
+            };
+            
+            const blob = new Blob([JSON.stringify(data, null, 2)], {type: 'application/json'});
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `complex_lambda_frame_${frame.frame_number}.json`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }
+        
+        function analyze() {
+            const frame = frames[currentFrame];
+            const analysis = analyzeExpression(frame.content.expression);
+            
+            alert(`Expression Analysis:
+Complexity: ${analysis.complexity}
+Nesting Depth: ${analysis.depth}
+Abstractions: ${analysis.abstractions}
+Applications: ${analysis.applications}
+Variables: ${analysis.variables}
+Length: ${analysis.length}`);
+        }
+        
+        function compare() {
+            if (!currentExpression) {
+                alert('No expression loaded for comparison');
+                return;
+            }
+            
+            const frame = frames[currentFrame];
+            const analysis = analyzeExpression(frame.content.expression);
+            
+            let comparison = `Comparison with ${currentExpression.name}:
+            
+Current Expression:
+- Complexity: ${analysis.complexity}
+- Depth: ${analysis.depth}
+- Abstractions: ${analysis.abstractions}
+- Applications: ${analysis.applications}
+
+${currentExpression.name}:
+- Complexity: ${currentExpression.complexity}
+- Type: ${currentExpression.type}
+- Description: ${currentExpression.description}`;
+            
+            alert(comparison);
+        }
+        
+        // Initialize
+        initializeExpressions();
+    </script>
+</body>
+</html>

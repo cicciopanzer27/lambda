@@ -1,0 +1,50 @@
+{
+  "demo_results": {
+    "y_combinator": {
+      "name": "y_combinator",
+      "expression": "\\f.(\\x.f(x x))(\\x.f(x x))",
+      "parsed": "λf.λx.f xx (λx.f xx)",
+      "complexity": 20,
+      "variables": [],
+      "depth": 1,
+      "applications": 1,
+      "abstractions": 0,
+      "reduction_error": "'dict' object has no attribute 'steps'"
+    },
+    "factorial_3": {
+      "name": "factorial_3",
+      "expression": "((\\f.(\\x.f(x x))(\\x.f(x x))) (\\f.\\n.if (n = 0) then 1 else n * (f (n-1)))) 3",
+      "error": "Parse error: Unexpected character: ="
+    },
+    "complex_nested": {
+      "name": "complex_nested",
+      "expression": "((\\f.\\g.\\x.f(g x)) (\\x.x*x)) ((\\y.\\z.y+z) 3) 4",
+      "error": "Parse error: Unexpected character: *"
+    },
+    "map_successor": {
+      "name": "map_successor",
+      "expression": "((\\f.\\l.\\g.l (\\x.\\y.g (f x) (map f y)) nil) (\\n.\\f.\\x.f(n f x))) (cons (\\f.\\x.f x) (cons (\\f.\\x.f(f x)) (cons (\\f.\\x.f(f(f x))) nil)))",
+      "parsed": "(λf.λl.λg.(l (λx.λy.(g fx) mapfy)) nil (λn.λf.λx.f nfx)) ((cons (λf.λx.fx)) ((cons (λf.λx.f fx)) ((cons (λf.λx.f (f fx))) nil)))",
+      "complexity": 128,
+      "variables": [],
+      "depth": 1,
+      "applications": 15,
+      "abstractions": 0,
+      "reduction_error": "'dict' object has no attribute 'steps'"
+    },
+    "power": {
+      "name": "power",
+      "expression": "\\m.\\n.n m",
+      "parsed": "λm.λn.nm",
+      "complexity": 8,
+      "variables": [],
+      "depth": 1,
+      "applications": 0,
+      "abstractions": 0,
+      "reduction_error": "'dict' object has no attribute 'steps'"
+    }
+  },
+  "total_expressions": 5,
+  "successful_animations": 0,
+  "created_at": "2025-09-30T12:37:59.866403"
+}

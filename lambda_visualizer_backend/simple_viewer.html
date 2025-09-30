@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lambda Calculus Frame Viewer</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(45deg, #2196F3, #21CBF3);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        .controls {
+            padding: 20px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #dee2e6;
+        }
+        .frame-display {
+            padding: 30px;
+            text-align: center;
+        }
+        .lambda-expression {
+            font-family: 'Courier New', monospace;
+            font-size: 24px;
+            background: #e3f2fd;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 5px solid #2196F3;
+        }
+        .progress-container {
+            margin: 20px 0;
+        }
+        .progress-bar {
+            width: 100%;
+            height: 30px;
+            background: #e0e0e0;
+            border-radius: 15px;
+            overflow: hidden;
+            position: relative;
+        }
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #4CAF50, #8BC34A);
+            transition: width 0.3s ease;
+            border-radius: 15px;
+        }
+        .progress-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-weight: bold;
+            color: white;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        }
+        .frame-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .info-card {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #2196F3;
+        }
+        .info-card h3 {
+            margin: 0 0 10px 0;
+            color: #2196F3;
+        }
+        .info-card p {
+            margin: 0;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .controls input[type="range"] {
+            width: 100%;
+            margin: 10px 0;
+        }
+        .btn {
+            background: #2196F3;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+            font-size: 14px;
+        }
+        .btn:hover {
+            background: #1976D2;
+        }
+        .btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+        .visualization {
+            margin: 20px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+        .lambda-tree {
+            font-family: 'Courier New', monospace;
+            font-size: 18px;
+            line-height: 1.6;
+            text-align: left;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            border: 2px solid #e0e0e0;
+        }
+        .file-input {
+            margin: 20px 0;
+            padding: 20px;
+            border: 2px dashed #ccc;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .file-input.dragover {
+            border-color: #2196F3;
+            background-color: #e3f2fd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🧮 Lambda Calculus Frame Viewer</h1>
+            <p>Load and visualize your lambda calculus animation frame data</p>
+        </div>
+        
+        <div class="file-input" id="fileInput">
+            <h3>📁 Load JSON Frame Data</h3>
+            <p>Drag and drop your JSON file here or click to select</p>
+            <input type="file" id="fileSelect" accept=".json" style="display: none;">
+            <button class="btn" onclick="document.getElementById('fileSelect').click()">Choose File</button>
+        </div>
+        
+        <div id="viewer" style="display: none;">
+            <div class="controls">
+                <h3>Frame Controls</h3>
+                <input type="range" id="frameSlider" min="0" max="0" value="0" step="1">
+                <div>
+                    <button class="btn" id="playBtn">▶️ Play</button>
+                    <button class="btn" id="pauseBtn" disabled>⏸️ Pause</button>
+                    <button class="btn" id="resetBtn">🔄 Reset</button>
+                    <button class="btn" id="exportBtn">💾 Export Frame</button>
+                </div>
+            </div>
+            
+            <div class="frame-display">
+                <div class="lambda-expression" id="expressionDisplay">
+                    No data loaded
+                </div>
+                
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+                        <div class="progress-text" id="progressText">0%</div>
+                    </div>
+                </div>
+                
+                <div class="frame-info">
+                    <div class="info-card">
+                        <h3>Frame Number</h3>
+                        <p id="frameNumber">0</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>Timestamp</h3>
+                        <p id="timestamp">0.000s</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>Progress</h3>
+                        <p id="progress">0.000</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>Analysis</h3>
+                        <p id="analysis">No data</p>
+                    </div>
+                </div>
+                
+                <div class="visualization">
+                    <h3>Lambda Expression Tree</h3>
+                    <div class="lambda-tree" id="lambdaTree">
+                        <pre>
+Load a JSON file to see the lambda expression visualization
+                        </pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let frames = [];
+        let currentFrame = 0;
+        let isPlaying = false;
+        let animationId = null;
+        
+        const fileInput = document.getElementById('fileInput');
+        const fileSelect = document.getElementById('fileSelect');
+        const viewer = document.getElementById('viewer');
+        const frameSlider = document.getElementById('frameSlider');
+        const expressionDisplay = document.getElementById('expressionDisplay');
+        const progressFill = document.getElementById('progressFill');
+        const progressText = document.getElementById('progressText');
+        const frameNumber = document.getElementById('frameNumber');
+        const timestamp = document.getElementById('timestamp');
+        const analysis = document.getElementById('analysis');
+        const lambdaTree = document.getElementById('lambdaTree');
+        
+        const playBtn = document.getElementById('playBtn');
+        const pauseBtn = document.getElementById('pauseBtn');
+        const resetBtn = document.getElementById('resetBtn');
+        const exportBtn = document.getElementById('exportBtn');
+        
+        // File handling
+        fileInput.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            fileInput.classList.add('dragover');
+        });
+        
+        fileInput.addEventListener('dragleave', () => {
+            fileInput.classList.remove('dragover');
+        });
+        
+        fileInput.addEventListener('drop', (e) => {
+            e.preventDefault();
+            fileInput.classList.remove('dragover');
+            const files = e.dataTransfer.files;
+            if (files.length > 0) {
+                loadFile(files[0]);
+            }
+        });
+        
+        fileSelect.addEventListener('change', (e) => {
+            if (e.target.files.length > 0) {
+                loadFile(e.target.files[0]);
+            }
+        });
+        
+        function loadFile(file) {
+            if (!file.name.endsWith('.json')) {
+                alert('Please select a JSON file');
+                return;
+            }
+            
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                try {
+                    const data = JSON.parse(e.target.result);
+                    if (data.frames && Array.isArray(data.frames)) {
+                        frames = data.frames;
+                        initializeViewer();
+                        fileInput.style.display = 'none';
+                        viewer.style.display = 'block';
+                    } else {
+                        alert('Invalid JSON format. Expected a "frames" array.');
+                    }
+                } catch (error) {
+                    alert('Error parsing JSON file: ' + error.message);
+                }
+            };
+            reader.readAsText(file);
+        }
+        
+        function initializeViewer() {
+            frameSlider.max = frames.length - 1;
+            updateDisplay(0);
+            
+            // Event listeners
+            frameSlider.addEventListener('input', (e) => {
+                pause();
+                updateDisplay(parseInt(e.target.value));
+            });
+            
+            playBtn.addEventListener('click', play);
+            pauseBtn.addEventListener('click', pause);
+            resetBtn.addEventListener('click', reset);
+            exportBtn.addEventListener('click', exportFrame);
+        }
+        
+        function updateDisplay(frameIndex) {
+            const frame = frames[frameIndex];
+            currentFrame = frameIndex;
+            
+            expressionDisplay.textContent = frame.content.expression;
+            progressFill.style.width = (frame.content.progress * 100) + '%';
+            progressText.textContent = (frame.content.progress * 100).toFixed(1) + '%';
+            frameNumber.textContent = frame.frame_number;
+            timestamp.textContent = frame.timestamp.toFixed(3) + 's';
+            analysis.textContent = frame.content.analysis;
+            
+            // Update lambda tree visualization
+            const treeHtml = `
+                <pre>
+λf.λx.f(f(f x))
+
+Tree Structure:
+    λf
+    └── λx
+        └── f
+            └── f
+                └── f
+                    └── x
+
+Progress: ${(frame.content.progress * 100).toFixed(1)}%
+Frame: ${frame.frame_number}/${frames.length - 1}
+                </pre>
+            `;
+            lambdaTree.innerHTML = treeHtml;
+        }
+        
+        function play() {
+            isPlaying = true;
+            playBtn.disabled = true;
+            pauseBtn.disabled = false;
+            
+            function animate() {
+                if (isPlaying) {
+                    currentFrame = (currentFrame + 1) % frames.length;
+                    frameSlider.value = currentFrame;
+                    updateDisplay(currentFrame);
+                    animationId = setTimeout(animate, 50); // ~20 FPS
+                }
+            }
+            animate();
+        }
+        
+        function pause() {
+            isPlaying = false;
+            playBtn.disabled = false;
+            pauseBtn.disabled = true;
+            if (animationId) {
+                clearTimeout(animationId);
+            }
+        }
+        
+        function reset() {
+            pause();
+            currentFrame = 0;
+            frameSlider.value = 0;
+            updateDisplay(0);
+        }
+        
+        function exportFrame() {
+            const frame = frames[currentFrame];
+            const data = {
+                frame_number: frame.frame_number,
+                timestamp: frame.timestamp,
+                expression: frame.content.expression,
+                progress: frame.content.progress,
+                analysis: frame.content.analysis
+            };
+            
+            const blob = new Blob([JSON.stringify(data, null, 2)], {type: 'application/json'});
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `lambda_frame_${frame.frame_number}.json`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }
+    </script>
+</body>
+</html>
