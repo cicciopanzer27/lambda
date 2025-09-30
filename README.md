@@ -217,14 +217,14 @@ MIT License
 
 ## Changelog
 
-### v3.0.0 (28 Dicembre 2024)
+### v3.0.0 (30 Settembre 2025)
 - ✅ Parser lambda calculus corretto
 - ✅ Beta reduction engine funzionante
 - ✅ Database SQLite per persistenza
 - ❌ Frontend non funzionante
 - ❌ Integrazioni parzialmente funzionanti
 
-### v2.0.0 (28 Settembre 2024)
+### v2.0.0 (28 Settembre 2025)
 - ❌ Parser con errori di tokenizzazione
 - ❌ Beta reduction incorretta
 - ❌ Sistema non funzionante
