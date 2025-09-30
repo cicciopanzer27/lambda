@@ -4,8 +4,6 @@ Un sistema per l'analisi e visualizzazione del lambda calculus con integrazioni 
 
 ## ⚠️ Stato del Progetto
 
-**Voto Tecnico: 6/10** - Progetto con buona base tecnica ma problemi critici.
-
 ### ✅ Funzionante
 - Parser lambda calculus corretto e funzionante
 - Beta reduction engine con strategie multiple
